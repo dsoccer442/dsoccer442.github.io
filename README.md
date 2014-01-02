@@ -1,4 +1,4 @@
-dsoccer442.github.io
+dylansteele.me
 ====================
 
-Personal website.
+Check out my new [personal website](http://dylansteele.me/). Secret projects at fruity subdomain. Also available on GitHub Pages.
