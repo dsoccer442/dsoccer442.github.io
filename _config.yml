@@ -1,6 +1,6 @@
 title:            Dylan Steele
-description:      Entrepreneur and student. Currently Founder at BitTrust and worker at TeenCEO.
-logo:             site-logo.png
+description:      Sup. 
+logo:             logo.png
 disqus_shortname: 
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
@@ -11,22 +11,22 @@ url:              dylansteele.me
 owner:
   name:				Dylan Steele
   avatar:			bio-photo.png
-  #email:			you@email.com
-  signoff_text:		Till next time
-  signoff_link:		/about
+  email:			you@email.com
+  signoff_text:		Best
+  # signoff_link:		/about
   signature_image:	signature.png
   # Social networking links used in footer. Update and remove as you like.
-  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
   twitter:        dylansteele14
-  #facebook:       
+  # phone:        425.298.7459
+  # facebook:     
   github:         dsoccer442
-  #stackexchange:  
-  linkedin:       http://www.linkedin.com/pub/dylan-steele/54/60a/336
-  #instagram:      
-  #flickr:         
-  #tumblr:         
+  # stackexchange:  
+  linkedin:       in/dylansteele14
+  # instagram:      
+  # flickr:         
+  # tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  #google_plus:    
+  # google_plus:    
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -37,17 +37,17 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
+  - title: Quotes
+    url: /quotes
+  - title: Links
+    url: /links
   - title: Projects
     url: /projects
   - title: Blog
-    url: /blog
+    url: /
     external: false
-  - title: Contact
-    url: /contact
+  - title: About
+    url: /about
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

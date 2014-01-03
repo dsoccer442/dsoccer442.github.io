@@ -1,0 +1,35 @@
+body {
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	background: url("../img/escheresque_ste/escheresque_ste.png");
+}
+
+#box {
+	width: 400px;
+	height: 450px;
+	margin: 30px auto;
+	background: #fff;
+	overflow: scroll;
+	border: 1px solid black;
+	position: relative;
+	line-height: 130%;	
+}
+
+#box img {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+#box div {
+	margin-top: 250px;
+	padding: 20px;
+	background: #f0f0f0;
+	position: relative;
+}
+
+#box div h2 {
+	padding: 0;
+	margin: 0;
+}

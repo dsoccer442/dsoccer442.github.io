@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Hilot</title>
+	<link rel="stylesheet" type="text/css" href="css/component1.css" />
+	<link rel="stylesheet" type="text/css" href="css/hilotstyle.css" />
+	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Snow --> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="https://cacpg.herokuapp.com/js/demos/snowfall.min.js"></script>
+	<script>
+		$(document).ready(function() {
+    		snowFall.snow($("body"), {
+        		minSize: 3,
+        		maxSize: 10,
+        		round: true,
+        		minSpeed: 2,
+        		maxSpeed: 5,
+        		flakeCount: 200
+    		});
+		});
+	</script>
+	<!-- /Snow -->
+</head>
+<body>
+	<header>
+		<div class="navbar">
+			<a href="#"><img src="img/arc_blue.png" alt="arc_blue" id="pilot-logo" /></a>
+			<nav>
+				<a href="about.html">ABOUT</a>
+				<a href="getinvolved.html">GET INVOLVED</a>
+				<a href="events.html">EVENTS</a>
+				<a href="contact.html">CONTACT</a>
+			</nav>
+			<div class="social">
+				<a href="#"><img src="img/social_fb.png" class="social-media"></a>
+				<a href="#"><img src="img/social_twitter.png" class="social-media"></a>
+				
+			</div>
+		</div>
+	</header>
+	<div class="header-img" style="background-image: url('img/philly.png')">
+		<div class="header-text">
+			<h1>What can you build in a day?</h1>
+			<a href="#"><h3>FIND OUT AT PILOT.</h3></a>
+		</div>
+	</div>
+	<div id="content">
+		<h2>Upcoming Events</h2>
+		<div class="event">
+			<h4>To Be Announced</h4>
+			<h1><a href="#">BOSTON</a></h1>
+		</div>
+		<div class="event">
+			<h4>To Be Announced (Early 2014)</h4>
+			<h1><a href="#">WASHINGTON D.C.</a></h1>
+		</div>
+		<div class="event">
+			<h4>To Be Announced</h4>
+			<h1><a href="#">MICHIGAN</a></h1>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-wrap">
+			<h3>Event Sponsors</h3>
+			<ul class="event-sponsors">
+				<li><a href="#"><img src="img/facebook.png"></a></li>
+				<li><a href="#"><img src="img/palantir.png"></a></li>
+				<li><a href="#"><img src="img/aws.png"></a></li>
+				<li><a href="#"><img src="img/modev.png"></a></li>
+			</ul>
+		</div>
+	</footer>
+	<div class="nav-container">
+		<div class="component">
+			<!-- Start Nav Structure -->
+			<button class="cn-button" id="cn-button">+</button>
+			<div class="cn-wrapper" id="cn-wrapper">
+			    <ul>
+			      <li><a href="#"><span class="fa fa-home"></span></a></li>
+			      <li><a href="about.html"><span class="fa fa-info"></span></a></li>
+			      <li><a href="getinvolved.html"><span class="fa fa-code"></span></a></li>
+			      <li><a href="events.html"><span class="fa fa-calendar"></span></a></li>
+			      <li><a href="contact.html"><span class="fa fa-question"></span></a></li>
+			    </ul>
+			</div>
+			<div id="cn-overlay" class="cn-overlay"></div>
+			<!-- End Nav Structure -->
+		</div>
+	</div><!-- /container -->
+	<script src="js/polyfills.js"></script>
+	<script src="js/demo1.js"></script>
+</body>
+</html>
