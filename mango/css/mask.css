@@ -1,0 +1,34 @@
+.clipped {
+	background: url("../img/kitchen.jpg");
+	background-size: cover;
+	color: #e6f;
+	text-align: center;
+	padding: 2em;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-weight: 700;
+	padding: 20px 0px;
+	font: 10em "Oswald", sans-serif;
+	font-weight: 
+}
+.clipped h1 {
+	margin: 0 auto;
+	padding: 0;
+}
+.texture h1 {
+	font: 35em/100% "Oswald", sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	-webkit-mask-image: url("../img/texture.png");
+	mask-image: url("../img/texture.png");
+	font-weight: 700;
+}
+.texture {
+	background: url("../img/watercolor.jpg");
+}
+.texture h2 {
+	text-align: center;
+	font: 6em "Oswald", sans-serif;
+}
