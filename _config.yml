@@ -4,24 +4,25 @@ logo:             logo.png
 disqus_shortname: 
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://dsoccer442.github.io
+url:              http://dsoccer442.github.io #CHANGEBEFOREPUSHING!!!!!!!
 #cdn:			  http://cdn.localhost:4000
 
 # Owner/author information
 owner:
   name:				Dylan Steele
-  avatar:			bio-photo.png
-  email:			you@email.com
+  avatar:			bio-photo.png 
+  email:			you@email.com #TODO
   signoff_text:		Best
   # signoff_link:		/about
-  signature_image:	signature.png
+  signature_image:	signature.png #TODO
   # Social networking links used in footer. Update and remove as you like.
   twitter:        dylansteele14
-  # phone:        425.298.7459
+  phone:		  425-298-7459
+  email:		  dylan@dylansteele.me
   # facebook:     
   github:         dsoccer442
   # stackexchange:  
-  linkedin:       in/dylansteele14
+  linkedin:       dylansteele14
   # instagram:      
   # flickr:         
   # tumblr:         
