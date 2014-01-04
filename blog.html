@@ -1,12 +1,11 @@
 ---
 layout: page
-title: 
-description: "The personal blog of Dylan Steele."
-headline: Welcome to my blog
-tags: [Dylan, Steele, blog, home]
+title: Blog
+permalink: /blog/index.html
+description: "My blog."
 ---
 
-<!-- <ul class="post-list">
+<ul class="post-list">
 {% for post in paginator.posts limit:10 %} 
   <li><article><a href="{{ site.url }}{{ post.url }}"><i class="fa fa-pencil"></i> {{ post.title }} <span class="entry-date">Posted in {{ post.categories | join: ', ' | capitalize }}&nbsp;&bull;&nbsp;<i class="fa fa-clock-o"></i> {{ post.content.size | readtime | pluralize: "minute" }}  read</span></a></article></li>
   <p>{{ post.content | strip_html | truncatewords:40 }}&nbsp;<a href="{{ post.url }}"> Read more...</a></p>
@@ -29,4 +28,4 @@ Page: {{ paginator.page }} of {{ paginator.total_pages }}
 
   </div>
 
-</ul> -->
+</ul>

@@ -23,14 +23,14 @@
 <meta property="og:title" content="Syntax Highlighting Post">
 <meta property="og:description" content="Demo post displaying the various ways of highlighting code in Markdown.">
 <meta property="og:url" content="/articles/code-highlighting-post">
-<meta property="og:site_name" content="Dylan Steele">
+<meta property="og:site_name" content="Hey, my name is Dylan Steele.">
 
 
 
 
 
 <link rel="canonical" href="/articles/code-highlighting-post">
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Dylan Steele Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Hey, my name is Dylan Steele. Feed">
 
 
 <!-- http://t.co/dKP3o1e -->
@@ -89,16 +89,16 @@
 <body id="post" itemscope itemtype="http://schema.org/WebPage">
 
 <div class="container">	
-			<div class="codrops-top clearfix">
+			<!-- <div class="codrops-top clearfix">
 				<a href="http://twitter.com/dylansteele14" title="Dylan Steele on Twitter" target="_blank"><span>Follow my Updates</span></a>
 				<span class="right"></span>
-			</div>
+			</div> -->
 		  <!-- Collect the nav links, forms, and other content for toggling -->
 		  <header>
-				<h1 class="site-title animated fadeIn"><a href="">Dylan Steele</a></h1><span><h2 class="site-description animated fadeIn" itemprop="description">Sup.</h2></span>
+				<h1 class="site-title animated fadeIn"><a href="">Hey, my name is Dylan Steele.</a></h1><span><h2 class="site-description animated fadeIn" itemprop="description">Sup.</h2></span>
 			</header>
 		  	<div class="component">
-				<h2>Syntax Highlighting Post</h2>
+				<!-- <h2>Syntax Highlighting Post</h2> -->
 				<!-- Start Nav Structure -->
 <button class="cn-button" id="cn-button" itemscope itemtype="http://schema.org/SiteNavigationElement">Menu</button>
 	<div class="cn-wrapper" id="cn-wrapper">
@@ -124,7 +124,13 @@
 	        
 			<li>
 				
-					<a href="/"><span>Blog</span></a>
+					<a href="/"><span>Home</span></a>
+				 
+			</li>
+	        
+			<li>
+				
+					<a href="/blog"><span>Blog</span></a>
 				 
 			</li>
 	        
@@ -135,7 +141,7 @@
 			</li>
 	        
 	        <li><a href="/feed.xml" title="Atom/RSS feed"><span>Feed</a></span></li>
-	        <li class="dosearch"><a href="#" title="Search"><span>Search</a></span></li>
+	        
 	    </ul>
 	</div>
 	<div id="cn-overlay" class="cn-overlay"></div>
@@ -143,13 +149,7 @@
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
-<div class="search-wrapper">
-	<div class="search-form">
-		<input type="text" class="search-field" placeholder="Search...">
-		<i class="icon-remove-sign icon-2x"></i>
-		<ul class="search-results post-list"></ul><!-- /.search-results -->
-	</div><!-- /.search-form -->
-</div><!-- ./search-wrapper -->
+
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
@@ -303,7 +303,7 @@ end
 	
 	<a href="http://github.com/dsoccer442" title="Dylan Steele on Github" target="_blank"><i class="fa fa-github fa-2x"></i></a>
 	
-	<a href="tel:425-298-7459" title="Dylan Steele on Phone" target="_blank"><i class="fa fa-phone fa-2x fa-spin"></i></a> 
+	<a href="tel:425-298-7459" title="Dylan Steele on Phone" target="_blank"><i class="fa fa-phone fa-2x"></i></a> 
 	<a href="mailto:dylan@dylansteele.me" title="Dylan Steele on Email" target="_blank"><i class="fa fa-envelope fa-2x"></i></a> 
 </div><!-- /.social-fas -->
   </footer>
@@ -315,41 +315,6 @@ end
 <script src="/assets/js/polyfills.js"></script>
 <script src="/assets/js/highlight.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-
-<!-- Jekyll Simple Search option -->
-<script>
-  $(document).ready(function() {
-      $('.search-field').simpleJekyllSearch({
-          jsonFile : '/search.json',
-          searchResults : '.search-results',
-          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          noResults: '<p>Nothing found.</p>'
-        });
-  });
-
-  (function( $, window, undefined ) {
-    
-     var bs = {
-          close: $(".icon-remove-sign"),
-          searchform: $(".search-form"),
-          canvas: $("body"),
-          dothis: $('.dosearch')
-      };
-    
-    bs.dothis.on('click', function() {
-      $('.search-wrapper').css({ display: "block" });
-      bs.searchform.toggleClass('active');
-      bs.searchform.find('input').focus();
-      bs.canvas.toggleClass('search-overlay');
-    });
-    
-      bs.close.on('click', function() {
-        $('.search-wrapper').removeAttr( 'style' );
-        bs.searchform.toggleClass('active');
-        bs.canvas.removeClass('search-overlay');
-    });
-  })( jQuery, window );
-</script>
 
 
 	        

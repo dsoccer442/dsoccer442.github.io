@@ -18,7 +18,7 @@ body {
     position: relative;
     margin-bottom: 3em;
     height: 15em;
-    background: rgba(0,0,0,.05);
+    /*background: rgba(0,0,0,.01);*/
 }
 
 .component>h2 {
@@ -46,7 +46,7 @@ body {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 100%;
+    /*top: 100%;*/
     left: 50%;
     z-index: 11;
     margin-top: -2em;
@@ -73,7 +73,7 @@ body {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 100%;
+    /*top: 100%;*/
     left: 50%;
     z-index: 10;
     margin-top: -13em;

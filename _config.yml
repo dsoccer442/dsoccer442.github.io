@@ -1,8 +1,9 @@
-title:            Dylan Steele
+name:			  Dylan Steele
+title:            "Hey, my name is Dylan Steele."
 description:      Sup. 
 logo:             logo.png
 disqus_shortname: 
-search:           true
+search:           false
 #Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://dsoccer442.github.io #CHANGEBEFOREPUSHING!!!!!!!
 #cdn:			  http://cdn.localhost:4000
@@ -44,8 +45,10 @@ links:
     url: /links
   - title: Projects
     url: /projects
-  - title: Blog
+  - title: Home
     url: /
+  - title: Blog
+    url: /blog
     external: false
   - title: About
     url: /about
