@@ -1,3 +1,5 @@
+/*#COLORPALLETTE: http://www.colourlovers.com/palette/3185838/For_anneclairdelune!*/
+
 * {
     position: relative;
 }
@@ -7,7 +9,11 @@ body,html {
 }
 
 body {
-    background: #474752;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top: 5px solid #4D9E8B;
+    background-color: #F7F7F7;
 }
 
 .component {
@@ -18,7 +24,6 @@ body {
     position: relative;
     margin-bottom: 3em;
     height: 15em;
-    /*background: rgba(0,0,0,.01);*/
 }
 
 .component>h2 {
@@ -57,7 +62,7 @@ body {
     border: 0;
     border-radius: 50%;
     background: 0 0;
-    background-color: #c91b26;
+    background-color: #EA3D4C;
     color: #fff;
     text-align: center;
     font-weight: 700;
@@ -188,10 +193,10 @@ body {
     width: 14.5em;
     height: 14.5em;
     border-radius: 50%;
-    background: #c91b26;
-    background: -webkit-radial-gradient(transparent 35%,#c91b26 35%);
-    background: -moz-radial-gradient(transparent 35%,#c91b26 35%);
-    background: radial-gradient(transparent 35%,#c91b26 35%);
+    background: #EA3D4C;
+    background: -webkit-radial-gradient(transparent 35%,#EA3D4C 35%);
+    background: -moz-radial-gradient(transparent 35%,#EA3D4C 35%);
+    background: radial-gradient(transparent 35%,#EA3D4C 35%);
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -241,50 +246,50 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(-20deg) skew(60deg);
-    -moz-transform: rotate(-20deg) skew(60deg);
-    -ms-transform: rotate(-20deg) skew(60deg);
-    transform: rotate(-20deg) skew(60deg);
+    -webkit-transform: rotate(6deg) skew(60deg);
+    -moz-transform: rotate(6deg) skew(60deg);
+    -ms-transform: rotate(6deg) skew(60deg);
+    transform: rotate(6deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(2) {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(12deg) skew(60deg);
-    -moz-transform: rotate(12deg) skew(60deg);
-    -ms-transform: rotate(12deg) skew(60deg);
-    transform: rotate(12deg) skew(60deg);
+    -webkit-transform: rotate(40deg) skew(60deg);
+    -moz-transform: rotate(40deg) skew(60deg);
+    -ms-transform: rotate(40deg) skew(60deg);
+    transform: rotate(40deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(3) {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(44deg) skew(60deg);
-    -moz-transform: rotate(44deg) skew(60deg);
-    -ms-transform: rotate(44deg) skew(60deg);
-    transform: rotate(44deg) skew(60deg);
+    -webkit-transform: rotate(75deg) skew(60deg);
+    -moz-transform: rotate(75deg) skew(60deg);
+    -ms-transform: rotate(75deg) skew(60deg);
+    transform: rotate(75deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(4) {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(76deg) skew(60deg);
-    -moz-transform: rotate(76deg) skew(60deg);
-    -ms-transform: rotate(76deg) skew(60deg);
-    transform: rotate(76deg) skew(60deg);
+    -webkit-transform: rotate(110deg) skew(60deg);
+    -moz-transform: rotate(110deg) skew(60deg);
+    -ms-transform: rotate(110deg) skew(60deg);
+    transform: rotate(110deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(5) {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(108deg) skew(60deg);
-    -moz-transform: rotate(108deg) skew(60deg);
-    -ms-transform: rotate(108deg) skew(60deg);
-    transform: rotate(108deg) skew(60deg);
+    -webkit-transform: rotate(144deg) skew(60deg);
+    -moz-transform: rotate(144deg) skew(60deg);
+    -ms-transform: rotate(144deg) skew(60deg);
+    transform: rotate(144deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(6) {
@@ -393,9 +398,10 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 2em;
+    padding: 4em 2em;
     text-align: center;
-    background: rgba(0,0,0,.01);
+    background: url('../../images/so-simple-sample-image-2.jpg') no-repeat left 25%;
+    background-color: rgba(0,0,0,.1);
 }
 
 .container>header h1 {
@@ -407,6 +413,7 @@ body {
     line-height: 1.3;
     margin: 0;
     font-weight: 300;
+    color: #F7F7F7;
 }
 
 .container>header span {
@@ -418,6 +425,7 @@ body {
     font-size: 60%;
     opacity: .7;
     padding: 0 0 .6em .1em;
+    color: #EFEFEF;
 }
 /* To Navigation Style */
 .codrops-top {
@@ -611,7 +619,7 @@ body {
 ::selection {
     color: #fff;
     text-shadow: 0 1px #fff;
-    background-color: #45ADA8;
+    background-color: #4D9E8B;
 }
 
 /*::-webkit-scrollbar {
@@ -624,7 +632,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #45ADA8;
+    background-color: #4D9E8B;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -658,16 +666,16 @@ a,b,blockquote,em,figure,h1,h2,header,i,img,input,p,q,span,strong {
 }
 
 body {
-    font-family: abel,sans-serif;
+    font-family: "Open Sans",sans-serif;
     color: #222;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: electrolize,sans-serif;
+    font-family: "Droid Serif", serif;
 }
 
 a {
-    color: #45ADA8;
+    color: #4D9E8B;
     text-decoration: none;
 }
 
@@ -764,23 +772,23 @@ blockquote {
     padding-left: 20px;
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
-    font-family: electrolize,sans-serif;
+    font-family: "Droid Serif", serif;
     font-size: 24px;
     font-size: 1.5rem;
     font-style: italic;
     line-height: 1;
-    border-left: 8px solid #45ADA8;
+    border-left: 8px solid #4D9E8B;
 }
 
 .footnotes {
-    font-family: abel,sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-size: .875rem;
     line-height: 1.7143;
 }
 
 code,kbd,pre,samp,tt {
-    font-family: courier-prime,monospace;
+    font-family: Monaco, monospace;
 }
 
 li code,p code {
@@ -1531,7 +1539,7 @@ svg:not(:root) {
     font-size: .875rem;
     color: #fff;
     background-color: #474752;
-    border: 4px solid #45ADA8!important;
+    border: 4px solid #4D9E8B!important;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -1958,7 +1966,7 @@ svg:not(:root) {
 }
 
 .fa:hover {
-    color: blue; /*#TODO*/
+    color: #4D9E8B;
     /*font-size: 3em;*/
 }
 /*@font-face {
@@ -2383,7 +2391,7 @@ button,input,label,select,textarea {
 }
 
 button,input,select,textarea {
-    font-family: abel,sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -2669,14 +2677,6 @@ body.search-overlay:after {
     display: none;
 }
 
-body {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: #fff;
-    border-top: 5px solid #45ADA8;
-}
-
 @media only screen and (min-width:48em) {
     body {
         font-size: 20px;
@@ -2697,12 +2697,12 @@ body {
 }
 
 .site-title a {
-    color: #000;
+    color: #F7F7F7;
 }
 
 .site-description {
     margin-top: 0;
-    font-family: electrolize,sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-size: 1rem;
     font-style: italic;
@@ -2742,6 +2742,7 @@ body {
     border-bottom: 1px solid #ccc;
     border-bottom: 1px solid rgba(0,0,0,.1);
     *zoom: 1;
+    margin-top: 2em;
 }
 
 .entry:after,.entry:before,.hentry:after,.hentry:before {
@@ -2796,7 +2797,7 @@ body {
 }
 
 .entry-tags a {
-    color: #45ADA8;
+    color: #4D9E8B;
 }
 
 span+.entry-title {
@@ -2804,7 +2805,7 @@ span+.entry-title {
 }
 
 .entry-title {
-    font-family: electrolize,sans-serif;
+    font-family: "Droid Serif", serif;
     font-size: 36px;
     font-size: 2.25rem;
     font-style: bold;
@@ -3089,7 +3090,7 @@ span+.entry-title {
 
 .footer-wrapper {
     margin: 2em auto;
-    font-family: electrolize,sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-size: .875rem;
     font-style: italic;
