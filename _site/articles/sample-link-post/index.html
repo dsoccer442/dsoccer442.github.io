@@ -139,7 +139,7 @@
 <div class="search-wrapper">
 	<div class="search-form">
 		<input type="text" class="search-field" placeholder="Search...">
-		<i class="icon-remove-sign icon-2x"></i>
+		<i class="fa fa-times-circle fa-2x icon-remove-sign"></i>
 		<ul class="search-results post-list"></ul><!-- /.search-results -->
 	</div><!-- /.search-form -->
 </div><!-- ./search-wrapper -->
@@ -213,6 +213,7 @@
 <script>
   $(document).ready(function() {
       $('.search-field').simpleJekyllSearch({
+          // jsonFile : 'http://dylansteele.me/search.json',
           jsonFile : '/search.json',
           searchResults : '.search-results',
           template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',

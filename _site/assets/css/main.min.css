@@ -246,7 +246,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(6deg) skew(60deg);
+    -webkit-transform: rotate(-10deg) skew(60deg);
     -moz-transform: rotate(6deg) skew(60deg);
     -ms-transform: rotate(6deg) skew(60deg);
     transform: rotate(6deg) skew(60deg);
@@ -256,7 +256,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(40deg) skew(60deg);
+    -webkit-transform: rotate(24deg) skew(60deg);
     -moz-transform: rotate(40deg) skew(60deg);
     -ms-transform: rotate(40deg) skew(60deg);
     transform: rotate(40deg) skew(60deg);
@@ -266,7 +266,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(75deg) skew(60deg);
+    -webkit-transform: rotate(58deg) skew(60deg);
     -moz-transform: rotate(75deg) skew(60deg);
     -ms-transform: rotate(75deg) skew(60deg);
     transform: rotate(75deg) skew(60deg);
@@ -276,7 +276,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(110deg) skew(60deg);
+    -webkit-transform: rotate(92deg) skew(60deg);
     -moz-transform: rotate(110deg) skew(60deg);
     -ms-transform: rotate(110deg) skew(60deg);
     transform: rotate(110deg) skew(60deg);
@@ -286,7 +286,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(144deg) skew(60deg);
+    -webkit-transform: rotate(126deg) skew(60deg);
     -moz-transform: rotate(144deg) skew(60deg);
     -ms-transform: rotate(144deg) skew(60deg);
     transform: rotate(144deg) skew(60deg);
@@ -296,7 +296,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    -webkit-transform: rotate(140deg) skew(60deg);
+    -webkit-transform: rotate(161deg) skew(60deg);
     -moz-transform: rotate(140deg) skew(60deg);
     -ms-transform: rotate(140deg) skew(60deg);
     transform: rotate(140deg) skew(60deg);
@@ -2629,8 +2629,8 @@ input[type=checkbox]:focus,input[type=file]:focus,input[type=radio]:focus,select
 
 .search-form .icon-remove-sign {
     position: absolute;
-    top: .6rem;
-    right: 1rem;
+    top: -0.1em;
+    right: 0em;
     z-index: 1;
     display: block;
     color: #fff;
@@ -3064,7 +3064,7 @@ span+.entry-title {
 
 .search-wrapper {
     position: absolute;
-    top: 50px;
+    top: -200px;
     display: none;
     width: 90%;
     padding-right: 5%;
@@ -3082,11 +3082,11 @@ span+.entry-title {
     clear: both;
 }
 
-@media only screen and (min-width:48em) {
+/*@media only screen and (min-width:48em) {
     .search-wrapper {
         top: 100px;
     }
-}
+}*/
 
 .footer-wrapper {
     margin: 2em auto;
