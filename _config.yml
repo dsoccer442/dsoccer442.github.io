@@ -1,11 +1,11 @@
 name:			  Dylan Steele
-title:            "Hey, my name is Dylan Steele."
+title:            "Hey, my name is Dylan."
 description:      Developer. Thinker. TV Watcher. 
 logo:             logo.png
 disqus_shortname: 
 search:           false #change to true once CORS figured out
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://dsoccer442.github.io #CHANGEBEFOREPUSHING!!!!!!!
+url:              #http://dsoccer442.github.io #CHANGEBEFOREPUSHING!!!!!!!
 #cdn:			  http://cdn.localhost:4000
 
 # Owner/author information
