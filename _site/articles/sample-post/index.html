@@ -129,7 +129,7 @@
 			</li>
 	        
 	        <li><a href="/feed.xml" title="Atom/RSS feed"><span>Feed</a></span></li>
-	        
+	        <li class="dosearch"><a href="#" title="Search"><span>Search</a></span></li>
 	    </ul>
 	</div>
 	<div id="cn-overlay" class="cn-overlay"></div>
@@ -137,7 +137,13 @@
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
-
+<div class="search-wrapper">
+	<div class="search-form">
+		<input type="text" class="search-field" placeholder="Search...">
+		<i class="icon-remove-sign icon-2x"></i>
+		<ul class="search-results post-list"></ul><!-- /.search-results -->
+	</div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
@@ -148,7 +154,7 @@
         
           <h1 class="entry-title" itemprop="headline">Sample Post</h1>
         
-        <p><i class="fa fa-clock-o no-hover"></i> 4 minutes read&nbsp;&bull;&nbsp;<time datetime="2011-03-10T00:00:00-08:00" itemprop="datePublished"><i class="fa fa-calendar no-hover"></i> March 10, 2011</time>&nbsp;&bull;&nbsp;<i class="fa fa-th-list no-hover"></i> Posted in <a href="/categories/index.html#articles" title="Other posts from the articles category" rel="tag">Articles</a>&nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;Sample Post&quot;%20/articles/sample-post%20via%20&#64;dylansteele14" data-dnt="true"> Share on Twitter</a>
+        <p><i class="fa fa-clock-o no-hover"></i> 4 minutes &nbsp;&bull;&nbsp;<time datetime="2011-03-10T00:00:00-08:00" itemprop="datePublished"><i class="fa fa-calendar no-hover"></i> March 10, 2011</time>&nbsp;&bull;&nbsp;<i class="fa fa-th-list no-hover"></i> Posted in <a href="/categories/index.html#articles" title="Other posts from the articles category" rel="tag"></a>&nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;Sample Post&quot;%20/articles/sample-post%20via%20&#64;dylansteele14" data-dnt="true"> Share on Twitter</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
       </header>
       <br>
@@ -320,6 +326,41 @@
 <script src="/assets/js/polyfills.js"></script>
 <script src="/assets/js/highlight.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : '/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
 
 
 	        
