@@ -1,9 +1,7 @@
 ---
 layout: project
-title: "Rain Arcade"
-description: "Example and code for using link posts." 
+title: "Rain Arcade" 
 category: projects
-tags: []
 image:
   feature: rain-arcade.png
 link: http://www.rainarcade.com/

@@ -5,31 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>TeenCEO &#8211; Dylan Steele</title>
-<meta name="description" content="Demo post displaying the various ways of highlighting code in Markdown.">
-<meta name="keywords" content="sample post, code, highlighting">
+<title>Sounders FC Interactive Roster &#8211; Dylan Steele</title>
+<meta name="description" content="Developer. Thinker. TV Watcher.">
+<meta name="keywords" content="">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="/images/so-simple-sample-image-5.jpg">
+<meta name="twitter:image" content="/images/soundersfc-roster.png">
 
-<meta name="twitter:title" content="TeenCEO">
-<meta name="twitter:description" content="Demo post displaying the various ways of highlighting code in Markdown.">
+<meta name="twitter:title" content="Sounders FC Interactive Roster">
+<meta name="twitter:description" content="Developer. Thinker. TV Watcher.">
 <meta name="twitter:creator" content="@dylansteele14">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TeenCEO">
-<meta property="og:description" content="Demo post displaying the various ways of highlighting code in Markdown.">
-<meta property="og:url" content="/articles/teen-ceo">
+<meta property="og:title" content="Sounders FC Interactive Roster">
+<meta property="og:description" content="Developer. Thinker. TV Watcher.">
+<meta property="og:url" content="/projects/sounders-fc-roster">
 <meta property="og:site_name" content="Hey, my name is Dylan.">
 
 
 
 
 
-<link rel="canonical" href="/articles/teen-ceo">
+<link rel="canonical" href="/projects/sounders-fc-roster">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Hey, my name is Dylan. Feed">
 
 
@@ -98,7 +98,7 @@
 				<h1 class="site-title animated fadeIn"><a href="">Hey, my name is Dylan.</a></h1><span><h2 class="site-description animated fadeIn" itemprop="description">Developer. Thinker. TV Watcher.</h2></span>
 			</header>
 		  	<div class="component">
-				<!-- <h2>TeenCEO</h2> -->
+				<!-- <h2>Sounders FC Interactive Roster</h2> -->
 				<!-- Start Nav Structure -->
 <button class="cn-button" id="cn-button" itemscope itemtype="http://schema.org/SiteNavigationElement">Menu</button>
 	<div class="cn-wrapper" id="cn-wrapper">
@@ -153,138 +153,37 @@
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork">
   <article class="hentry" itemprop="text">
-    <img src="/images/so-simple-sample-image-5.jpg" class="entry-feature-image" alt="TeenCEO" itemprop="image">
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="/projects" title="Projects" rel="tag">Back to Projects</a></span>
+        <span class="entry-tags"><a href="/projects" title="Projects" class="back-project"><i class="fa fa-arrow-left"></i>Projects</a></span>
         
-          <h1 class="entry-title" itemprop="headline">TeenCEO</h1>
+          <h1 class="entry-title" itemprop="headline"><a href="http://soundersfc.herokuapp.com/" target="_blank" class="project-title">Sounders FC Interactive Roster</a></h1>
         
-        <p>Started: <time datetime="" itemprop="dateCreated"></time> Ended: <time datetime="" itemprop="dateModified"><i class="fa fa-calendar no-hover"></i> </time>&nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;TeenCEO&quot;%20/articles/teen-ceo%20via%20&#64;dylansteele14" data-dnt="true"> Share on Twitter</a>
+        <p><i class="fa fa-calendar no-hover"></i><time datetime="2013-12-24" itemprop="dateCreated">December 24, 2013</time> to  <time datetime="2013-12-26" itemprop="dateModified"> December 26, 2013</time>  &nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;Sounders FC Interactive Roster&quot;%20/projects/sounders-fc-roster%20via%20&#64;dylansteele14" data-dnt="true"> Share on Twitter</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
       </header>
       <br>
 <div class="entry-content" itemprop="description">
-        <p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+        <img src="/images/soundersfc-roster.png" class="project-img" alt="Sounders FC Interactive Roster" itemprop="image">
 
-<h3 id="pygments-code-blocks">Pygments Code Blocks</h3>
+        <iframe width="560" height="315" src="http://www.youtube.com/embed/SqYiglufb8Y" frameborder="0"> </iframe>
 
-<p>To modify styling and highlight colors edit <code>/assets/less/pygments.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that’s your thing, the classes you want to modify all begin with <code>.highlight</code>.</p>
+<p>Video embeds are responsive and scale with the width of the main content block with the help of <a href="http://fitvidsjs.com/">FitVids</a>.</p>
 
-<div>
-    <pre><code class="css">#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}</code></pre>
-  </div>
+<p>Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the <code>&lt;iframe&gt;</code> tags and remove <code>allowfullscreen</code>. Example below:</p>
 
 <div>
-    <pre><code class="html">&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
-    {% if page.previous %}
-        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;</code></pre>
+    <pre><code class="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;</code></pre>
   </div>
 
-<div>
-    <pre><code class="ruby">module Jekyll
-  class TagIndex &lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = &#39;index.html&#39;
-      self.process(@name)
-      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
-      self.data[&#39;tag&#39;] = tag
-      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
-      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;#8211;&#39;
-      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
-    end
-  end
-end</code></pre>
-  </div>
-
-<h3 id="standard-code-block">Standard Code Block</h3>
-
-<pre><code>&lt;nav class="pagination" role="navigation"&gt;
-    {% if page.previous %}
-        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre>
-
-<h3 id="fenced-code-blocks">Fenced Code Blocks</h3>
-
-<p>To modify styling and highlight colors edit <code>/assets/less/coderay.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that’s your thing, the classes you want to modify all begin with <code>.coderay</code>. Line numbers and a few other things can be modified in <code>_config.yml</code> under <code>coderay</code>.</p>
-
-<pre><code class="language-css">#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-</code></pre>
-
-<pre><code class="language-html">&lt;nav class="pagination" role="navigation"&gt;
-    {% if page.previous %}
-        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre>
-
-<pre><code class="language-ruby">module Jekyll
-  class TagIndex &lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-</code></pre>
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="http://en.wikipedia.org/wiki/Syntax_highlighting">http://en.wikipedia.org/wiki/Syntax_highlighting</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-
-        <br />
-<p>
-  Best,<br/>
-  <!-- <a href="" title="Dylan Steele" target="_self"> -->Dylan Steele<!-- </a> --></p>
-<p>
-  <img src="/images/signature.png" alt="Dylan Steeles-signature" /> 
-</p>
+        
         
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="/projects/rain-arcade" class="btn" title="Rain Arcade">Previous article</a>
+        <a href="/projects/teen-ceo" class="btn" title="TeenCEO">Previous article</a>
       
-      
-        <a href="/articles/sounders-fc-roster" class="btn" title="A Post with a Video">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>

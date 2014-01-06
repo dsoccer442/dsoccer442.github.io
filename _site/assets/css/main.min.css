@@ -3222,3 +3222,16 @@ pre .coffeescript .javascript,pre .javascript .xml,pre .tex .formula,pre .xml .c
     display: table;
     margin: 0 auto;
 }
+.project-img {
+    max-width: 100%;
+    border: 2px solid #898989;
+}
+.project-title:hover {
+    color: #4D9E8B;
+}
+.back-project:hover {
+    color: #000;
+}
+.no-btm-margin {
+    margin-bottom: 0;
+}

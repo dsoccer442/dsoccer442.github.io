@@ -38,22 +38,23 @@
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork">
   <article class="hentry" itemprop="text">
-    {% if page.image.feature %}<img src="{% if site.cdn %}{{ site.cdn }}{% else %}{{ site.url }}{% endif %}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="{{ site.url }}/projects" title="Projects" rel="tag">Back to Projects</a></span>
+        <span class="entry-tags"><a href="{{ site.url }}/projects" title="Projects" class="back-project"><i class="fa fa-arrow-left"></i>Projects</a></span>
         {% if page.link %}
-          <h1 class="entry-title" itemprop="headline"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
+          <h1 class="entry-title" itemprop="headline"><a href="{{ page.link }}" target="_blank" class="project-title">{{ page.title }}</a></h1>
         {% else %}
           <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
         {% endif %}
-        <p>Started: <time datetime="{{ page.date-started }}" itemprop="dateCreated">{{ page.date-started | date: "%B %d, %Y" }}</time> Ended: <time datetime="{{ page.date-ended }}" itemprop="dateModified"><i class="fa fa-calendar no-hover"></i> {{ page.date-ended | date: "%B %d, %Y" }}</time>&nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true"> Share on Twitter</a>
+        <p><i class="fa fa-calendar no-hover"></i><time datetime="{{ page.date-started }}" itemprop="dateCreated">{{ page.date-started | date: "%B %d, %Y" }}</time> to {% if page.date-ended %} <time datetime="{{ page.date-ended }}" itemprop="dateModified"> {{ page.date-ended | date: "%B %d, %Y" }}</time> {% else %} Now {% endif %} &nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true"> Share on Twitter</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
       </header>
       <br>
 <div class="entry-content" itemprop="description">
+        {% if page.image.feature %}<img src="{% if site.cdn %}{{ site.cdn }}{% else %}{{ site.url }}{% endif %}/images/{{ page.image.feature }}" class="project-img" alt="{{ page.title }}" itemprop="image">{% endif %}
+
         {{ content }}
-        {% if site.owner.signoff_text %}{% include signoff.html %}{% endif %}
+        
         {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->

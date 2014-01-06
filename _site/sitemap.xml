@@ -6,19 +6,11 @@
     
     
     <url>
-        <loc>/articles/sounders-fc-roster</loc>
+        <loc>/projects/sounders-fc-roster</loc>
     </url>
     
     <url>
-        <loc>/articles/teen-ceo</loc>
-    </url>
-    
-    <url>
-        <loc>/projects/rain-arcade</loc>
-    </url>
-    
-    <url>
-        <loc>/articles/bittrust</loc>
+        <loc>/projects/teen-ceo</loc>
     </url>
     
     <url>
@@ -34,6 +26,10 @@
     </url>
     
     <url>
+        <loc>/projects/bittrust</loc>
+    </url>
+    
+    <url>
         <loc>/articles/readability-feature-post</loc>
     </url>
     
@@ -43,6 +39,10 @@
     
     <url>
         <loc>/articles/readability-post</loc>
+    </url>
+    
+    <url>
+        <loc>/projects/rain-arcade</loc>
     </url>
     
     <url>

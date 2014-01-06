@@ -1,9 +1,12 @@
 ---
-layout: post
-title: "A Post with a Video"
-description: "Custom written post descriptions are the way to go... if you're not lazy."
-category: articles
-tags: [sample post, video]
+layout: project
+title: "Sounders FC Interactive Roster"
+category: projects
+image:
+  feature: soundersfc-roster.png
+link: http://soundersfc.herokuapp.com/
+date-started: 2013-12-24
+date-ended: 2013-12-26
 comments: true
 ---
 
