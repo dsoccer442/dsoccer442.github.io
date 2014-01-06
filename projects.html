@@ -1,0 +1,13 @@
+---
+layout: projects-preview
+permalink: /projects/index.html
+title: Projects
+tags: [Projects, Details]
+description: "An archive of my projects."
+---
+
+<ul class="project-list">
+{% for post in site.categories['projects'] %}
+	<li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date">Started {{ post.date-started }} <i class="fa fa-calendar"></i></span></a></article></li>
+{% endfor %}
+</ul>

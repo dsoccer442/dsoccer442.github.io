@@ -3218,3 +3218,7 @@ pre .coffeescript .javascript,pre .javascript .xml,pre .tex .formula,pre .xml .c
 .no-hover:hover {
     color: inherit;
 }
+.center-div {
+    display: table;
+    margin: 0 auto;
+}

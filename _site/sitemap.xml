@@ -6,6 +6,22 @@
     
     
     <url>
+        <loc>/articles/sounders-fc-roster</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/teen-ceo</loc>
+    </url>
+    
+    <url>
+        <loc>/projects/rain-arcade</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/bittrust</loc>
+    </url>
+    
+    <url>
         <loc>/articles/code-highlighting-post</loc>
     </url>
     
@@ -33,4 +49,7 @@
         <loc>/articles/sample-post</loc>
     </url>
     
+
+    
+
 </urlset>

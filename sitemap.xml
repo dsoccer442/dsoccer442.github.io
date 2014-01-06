@@ -12,4 +12,11 @@ layout: nil
         <loc>{{ site.url }}{{ post.url }}</loc>
     </url>
     {% endfor %}
+
+    {% for project in site.projects %}
+    <url>
+        <loc>{{ site.url }}{{ project.url }}</loc>
+    </url>
+    {% endfor %}
+
 </urlset>

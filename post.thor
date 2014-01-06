@@ -19,6 +19,9 @@ image:
   credit:
   creditlink:
   feature:
+link:
+date-started:
+date-ended:
 comments: true
 ---
 

@@ -6,21 +6,21 @@
 <head>
 <meta charset="utf-8">
 <title>Projects &#8211; Dylan Steele</title>
-<meta name="description" content="Developer. Thinker. TV Watcher.">
+<meta name="description" content="An archive of my projects.">
 <meta name="keywords" content="Projects, Details">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="/images/logo.png">
 <meta name="twitter:title" content="Projects">
-<meta name="twitter:description" content="Developer. Thinker. TV Watcher.">
+<meta name="twitter:description" content="An archive of my projects.">
 <meta name="twitter:creator" content="@dylansteele14">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Projects">
-<meta property="og:description" content="Developer. Thinker. TV Watcher.">
+<meta property="og:description" content="An archive of my projects.">
 <meta property="og:url" content="/projects/index.html">
 <meta property="og:site_name" content="Hey, my name is Dylan.">
 
@@ -80,6 +80,12 @@
 	        
 			<li>
 				
+					<a href="/tags"><span>Archive</span></a>
+				 
+			</li>
+	        
+			<li>
+				
 					<a href="/thoughts"><span>Thoughts</span></a>
 				 
 			</li>
@@ -102,7 +108,7 @@
 				 
 			</li>
 	        
-	        <li><a href="/feed.xml" title="Atom/RSS feed"><span>Feed</a></span></li>
+	        <!-- <li><a href="/feed.xml" title="Atom/RSS feed"><span>Feed</a></span></li> -->
 	        <li class="dosearch"><a href="#" title="Search"><span>Search</a></span></li>
 	    </ul>
 	</div>
@@ -121,40 +127,16 @@
 
 <div id="main" role="main" itemprop="mainContentOfPage">
   <article class="entry" itemscope>
-    
     <div class="entry-wrapper">
       <header class="entry-header">
         <h1 class="entry-title" itemprop="name">Projects</h1>
       </header>
       <div class="entry-content" itemprop="description">
-        <p>This page is intended for the tech aficionados and contains specific technical details about the inner workings of this site. I hope to shed some light on some of the special features that this website contains and maybe even help those interested ones implementing similar features in their website. Without further adieu, lets just dive in:</p>
+        <ul class="project-list">
 
-<ol>
-  <li>This website is built and updated with <strong>Jekyll</strong><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. Jekyll is an awesome blog aware static site generator, and its highly useful for us academics. I will tell you why I used the word <strong>Academics</strong>. Back in 2008, when I was a freshman in college, I was provided with a hosting account with a domain name from the University registrar, and I badly wanted to host a blog. You know for swagger. I soon found out that the hosting servers for the students do not allow dynamic codes to run. My initial reaction was <em>NO PHP = NO BLOGGING</em>. Soon I stumbled across some beautiful blogs run on the same servers and some of those would be updated regularly. I came to know about the static site generators and fell in love. With a little bit of research I settled for Jekyll and my blogging experience changed forever.</li>
-  <li><code>Kramdown</code><sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> is the best of the bunch. As this is a Jekyll based website, the contents are written in Markdown. While I used <code>Rdiscount</code> as my markdown language for a while and absolutely loved it, I soon had to settle for something else as my blogging requirements grew. While <code>Rdiscount</code> is a lovely piece of software, it has a terrible relation with <code>MathJax-LaTeX</code><sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> and messes up the TeX code when both are put together. As an Electrical Engineering and Mathematics major back then, I had to find an alternative and soon discovered <code>Kramdown</code>. Its a little different than traditional markdown languages and has a slightly different syntax, but as all other Markdown languages, it too has a steep learning curve and its no hassle to master it within an hour. I have been using it ever since.</li>
-  <li>As for aesthetics, this website features a modified version of the <strong><a href="http://jekyllthemes.org/themes/so-simple/">“So Simple Theme”</a></strong> by <em>Michael Rose</em> from <a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a>. I like this theme because its minimalistic which greatly enhances the reading experience of the viewers. This theme also sports a responsive layout with a drop-down mobile menu which is awesome for reading on mobile devices on the go.</li>
-  <li>One of the major aesthetic changes I brought in the theme is to include a paginator in the home/latest posts page. This makes the website more readable and user-friendly. The navigation menu for the paginator uses an intelligent piece of code.</li>
-  <li>I have also included different category pages for my personal and mathematics related posts. I suppose these two will be the most frequented categories of this website. I will even include more in the future as I see fit.</li>
-  <li>I have been enjoying Medium.com as of lately and I simply love their <strong>Estimated Reading Time (ERT)</strong> of an article feature. What it does, it takes the word count of an article and calculates the <strong>ERT</strong> based on the average reading speed <strong>(ARS)</strong>. While <strong>ARS</strong> is simply an estimation and it differs from person-to-person, Medium uses 180 <strong>Words-Per-Minute (WPM)</strong> as their <strong>ARS</strong>. I figured out that <strong>ARS</strong> in this website’s readers will fall between 210-330 <strong>WPM</strong>. You can find the <strong>ERT</strong> of any article in this blog in the blog meta information panel in the Left-Hand side of the article.</li>
-  <li>This website also utilizes the <strong>“Pluralize”</strong> plugin to generate singular/plural word based on the context explained in point 6. If the reading time is 1 minute, it delivers the singular word “minute”, if else, the plural version “minutes” is delivered.</li>
-  <li>Providing the date in a naked form when the article has been created does not create a personal experience. To solve this the <strong>“Timeago”</strong> plugin has been implemented. It changes the article date and outputs it as a nice personal <em>”- days ago”</em> format.</li>
-</ol>
+	<li><article><a href="/projects/rain-arcade">Rain Arcade <span class="entry-date">Started 2011-07-01 <i class="fa fa-calendar"></i></span></a></article></li>
 
-<p><a href="" class="btn">Check out my blog</a></p>
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="http://jekyllrb.com/">Jekyll</a> transforms plain text into static websites and blogs. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p><a href="https://github.com/gettalong/kramdown">kramdown</a> is yet-another-markdown-parser but fast, pure Ruby, using a strict syntax definition and supporting several common extensions. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p><a href="http://www.mathjax.org/community/mathjax-in-use/mathjax-in-use-instructions-and-how-tos/">http://www.mathjax.org/community/mathjax-in-use/mathjax-in-use-instructions-and-how-tos/</a> <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-
+</ul>
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
   </article>
@@ -178,6 +160,7 @@
 	
 	<a href="tel:425-298-7459" title="Dylan Steele on Phone" target="_blank"><i class="fa fa-phone fa-2x"></i></a> 
 	<a href="mailto:dylan@dylansteele.me" title="Dylan Steele on Email" target="_blank"><i class="fa fa-envelope fa-2x"></i></a> 
+	<a href="/feed.xml" title="RSS Feed for Dylan Steele" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
 </div><!-- /.social-fas -->
   </footer>
 </div><!-- /.footer-wrapper -->

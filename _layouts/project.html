@@ -36,18 +36,18 @@
 
 {% include navigation.html %}
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-    {% if page.image.feature %}<img src="{% if site.cdn %}{{ site.cdn }}{% else %}{{ site.url }}{% endif %}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.location %}<p class="image-credit">Photo taken at: <a href="{{ page.image.locationlink }}">{{ page.image.location }}</a>{% endif %}{% if page.image.credit %}<p class="image-credit"> Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="hentry" itemprop="text">
+    {% if page.image.feature %}<img src="{% if site.cdn %}{{ site.cdn }}{% else %}{{ site.url }}{% endif %}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
+        <span class="entry-tags"><a href="{{ site.url }}/projects" title="Projects" rel="tag">Back to Projects</a></span>
         {% if page.link %}
           <h1 class="entry-title" itemprop="headline"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
         {% else %}
           <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
         {% endif %}
-        <p><i class="fa fa-clock-o no-hover"></i> {{ content.size | readtime | pluralize: "minute" }} &nbsp;&bull;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="fa fa-calendar no-hover"></i> {{ page.date | date: "%B %d, %Y" }}</time>&nbsp;&bull;&nbsp;<i class="fa fa-th-list no-hover"></i> Posted in <a href="{{ site.url }}/categories/index.html#{{ page.categories | cgi_encode }}" title="Other posts from the {{ page.categories }} category" rel="tag">{{ <p></p>age.categories | join: ', ' | capitalize }}</a>&nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true"> Share on Twitter</a>
+        <p>Started: <time datetime="{{ page.date-started }}" itemprop="dateCreated">{{ page.date-started | date: "%B %d, %Y" }}</time> Ended: <time datetime="{{ page.date-ended }}" itemprop="dateModified"><i class="fa fa-calendar no-hover"></i> {{ page.date-ended | date: "%B %d, %Y" }}</time>&nbsp;&bull;&nbsp;<i class="fa fa-share no-hover"></i><a href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true"> Share on Twitter</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
       </header>
       <br>

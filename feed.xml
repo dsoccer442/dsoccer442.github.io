@@ -14,6 +14,8 @@ layout: none
   <uri>{{ site.url }}/</uri>
   <email>{{ site.owner.email }}</email>
 </author>
+<icon>{{ site.url }}/favicon.png</icon>
+<logo>{{ site.url }}/images/logo.png</logo>
 {% for post in site.posts limit:20 %}
 
 <entry>
