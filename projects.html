@@ -10,6 +10,6 @@ description: "An archive of my projects."
 {% for post in site.categories['projects'] %}
 	<li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
 	<span class="entry-date"><i class="fa fa-calendar no-btm-margin"></i> Started {{ post.date-started | date: "%B %d, %Y" }}</span></a></article></li>
-	<p>{{ post.content | strip_html | truncatewords:40 }}&nbsp;<a href="{{ post.url }}"> Read more...</a></p>
+	<p>{{ post.content | strip_html | truncatewords:40 }}&nbsp; <a href="{{ post.url }}">Read more</a></p>
 {% endfor %}
 </ul>
