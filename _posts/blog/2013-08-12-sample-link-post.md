@@ -5,6 +5,7 @@ description: "Example and code for using link posts."
 category: articles
 tags: [sample post, link post]
 comments: true
+read-time: 1 minute
 link: http://mademistakes.com  
 ---
 

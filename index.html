@@ -9,7 +9,7 @@ tags: [Dylan, Steele, blog, home]
 <ul class="post-list">
 {% for post in paginator.posts limit:10 %}
   <li><article><a href="{{ site.url }}{{ post.url }}"><i class="fa fa-pencil"></i> {{ post.title }} 
-  <span class="entry-date">Posted in <strong>{{ post.categories | join: ', ' | capitalize }}</strong> &nbsp;&bull;&nbsp;<!-- <i class="fa fa-clock-o"></i>-->{{ post.content.size | readtime | pluralize: "minute"  }}</span></a></article></li>
+  <span class="entry-date">Posted in <strong>{{ post.categories | join: ', ' | capitalize }}</strong> {% if post.read-time %}&nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->{{ post.read-time }} {% endif %}</span></a></article></li>
   <p>{{ post.content | strip_html | truncatewords:40 }}&nbsp;<a href="{{ post.url }}"> Read more...</a></p>
 {% endfor %}
 <br>
