@@ -401,6 +401,7 @@ body {
     padding: 4em 2em;
     text-align: center;
     background: url('../../images/so-simple-sample-image-2.jpg') no-repeat left 25%;
+    background-size: cover;
     background-color: rgba(0,0,0,.1);
 }
 
