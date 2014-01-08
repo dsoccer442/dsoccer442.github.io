@@ -5,7 +5,7 @@ logo:             logo.png
 disqus_shortname: 
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              #http://dylansteele.me #CHANGEBEFOREPUSHING!!!!!!!
+url:              http://dylansteele.me #CHANGEBEFOREPUSHING!!!!!!!
 #cdn:			  http://cdn.localhost:4000
 
 # Owner/author information
@@ -19,7 +19,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        dylansteele14
   phone:		  425-298-7459
-  email:		  dylan@dylansteele.me
+  # email:		  dylan@dylansteele.me
   # facebook:     
   github:         dsoccer442
   # stackexchange:  
@@ -32,8 +32,8 @@ owner:
   # google_plus:    
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics: UA-46944549-1
+google_verify:    7GCHiEWv77SeapxU9M4aefCPpIkqpn8_-MWo1-rB1Pc
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
