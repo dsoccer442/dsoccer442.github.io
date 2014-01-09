@@ -33,6 +33,14 @@
 		} ,
 	
 		{
+		  "title"      : "ICS Graduation",
+		  "category"   : "projects",
+		  "url"        : "/projects/ics-graduation",
+		  "date"       : "2013-07-01 00:00:00 -0700",
+		  "shortdate"  : "July 01, 2013"
+		} ,
+	
+		{
 		  "title"      : "A Post with a Video",
 		  "category"   : "articles",
 		  "url"        : "/articles/video-post",
