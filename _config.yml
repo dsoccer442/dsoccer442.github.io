@@ -1,0 +1,83 @@
+name:			        Dylan Steele
+title:            "Hey, my name is Dylan."
+description:      Developer. Thinker. TV Watcher. 
+logo:             logo.png
+disqus_shortname: 
+search:           true
+#Change url to your domain. Leave localhost server or blank when working locally.
+url:              http://dylansteele.me #CHANGEBEFOREPUSHING!!!!!!!
+#cdn:			  http://cdn.localhost:4000
+
+# Owner/author information
+owner:
+  name:				Dylan Steele
+  avatar:			bio-photo.png 
+  email:			you@email.com #TODO
+  signoff_text:		Best
+  # signoff_link:		/about
+  signature_image:	signature.png #TODO
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        dylansteele14
+  phone:		  425-298-7459
+  # email:		  dylan@dylansteele.me
+  # facebook:     
+  github:         dsoccer442
+  # stackexchange:  
+  linkedin:       dylansteele14
+  feed:           true
+  # instagram:      
+  # flickr:         
+  # tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:    
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-46944549-1
+google_verify:    7GCHiEWv77SeapxU9M4aefCPpIkqpn8_-MWo1-rB1Pc
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Archive
+    url: /tags
+  - title: Thoughts 
+    url: /thoughts
+  - title: Projects
+    url: /projects
+  - title: Home
+    url: /
+    external: false
+  - title: About
+    url: /about
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Los_Angeles
+future:      true
+pygments:    false
+highlight_js:	true
+markdown:    kramdown
+paginate:    4
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: [".gitignore", "build.bat", "build-deploy.bat", "build-init.bat", "desktop.ini", "post.thor", "project.thor",  "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
