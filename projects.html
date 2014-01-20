@@ -16,14 +16,16 @@ description: "An archive of my projects."
 
 <ul class="grid cs-style-3 projects-img">
 	{% for post in site.categories['projects'] %}
-	<li>
-		<figure>
-			<img src="/images/{{ post.title }}-logo.png" alt="{{ post.title }} Logo">
-			<figcaption>
-			<a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-			<!-- <span>Content</span> -->
-			</figcaption>
-		</figure>
-	</li>
+	<a href="{{ post.url }}">
+		<li>
+			<figure>
+				<img src="/images/{{ post.title }}-logo.png" alt="{{ post.title }} Logo">
+				<figcaption>
+				<a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+				<!-- <span>Content</span> -->
+				</figcaption>
+			</figure>
+		</li>
+	</a>
 	{% endfor %}
 </ul>

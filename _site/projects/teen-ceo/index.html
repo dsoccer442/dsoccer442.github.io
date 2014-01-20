@@ -165,109 +165,7 @@
 <div class="entry-content" itemprop="description">
         
 
-        <p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
-
-<h3 id="pygments-code-blocks">Pygments Code Blocks</h3>
-
-<p>To modify styling and highlight colors edit <code>/assets/less/pygments.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that’s your thing, the classes you want to modify all begin with <code>.highlight</code>.</p>
-
-<div>
-    <pre><code class="css">#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}</code></pre>
-  </div>
-
-<div>
-    <pre><code class="html">&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
-    {% if page.previous %}
-        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;</code></pre>
-  </div>
-
-<div>
-    <pre><code class="ruby">module Jekyll
-  class TagIndex &lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = &#39;index.html&#39;
-      self.process(@name)
-      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
-      self.data[&#39;tag&#39;] = tag
-      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
-      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;#8211;&#39;
-      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
-    end
-  end
-end</code></pre>
-  </div>
-
-<h3 id="standard-code-block">Standard Code Block</h3>
-
-<pre><code>&lt;nav class="pagination" role="navigation"&gt;
-    {% if page.previous %}
-        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre>
-
-<h3 id="fenced-code-blocks">Fenced Code Blocks</h3>
-
-<p>To modify styling and highlight colors edit <code>/assets/less/coderay.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that’s your thing, the classes you want to modify all begin with <code>.coderay</code>. Line numbers and a few other things can be modified in <code>_config.yml</code> under <code>coderay</code>.</p>
-
-<pre><code class="language-css">#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-</code></pre>
-
-<pre><code class="language-html">&lt;nav class="pagination" role="navigation"&gt;
-    {% if page.previous %}
-        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
-    {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre>
-
-<pre><code class="language-ruby">module Jekyll
-  class TagIndex &lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-</code></pre>
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="http://en.wikipedia.org/wiki/Syntax_highlighting">http://en.wikipedia.org/wiki/Syntax_highlighting</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+        <p>TeenCEO is the first business plan competition in Western Washington and is of of the most prestigious high school competitions in the state. Launched by the Lake Washington School District, TeenCEO gives high school students with operating businesses the chance to compete for cash and prizes and earn credibility. Professional faculty and staff are also involved to help the <a href="http://teenceowa.com/contestants" title="TeenCEO Contestants">students contestants</a>. I operate the site, managed through Wordpress, and helped to start the competition with the LWSD administration and three other students. </p>
 
         
         
@@ -275,10 +173,10 @@ end
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="/articles/code-highlighting-post" class="btn" title="Syntax Highlighting Post">Previous article</a>
+        <a href="/articles/code-highlighting-post" class="btn" title="Syntax Highlighting Post">Previous project</a>
       
       
-        <a href="/projects/sounders-fc-roster" class="btn" title="Sounders FC Interactive Roster">Next article</a>
+        <a href="/projects/sounders-fc-roster" class="btn" title="Sounders FC Interactive Roster">Next project</a>
       
     </nav><!-- /.pagination -->
   </article>
@@ -300,7 +198,7 @@ end
 	<a href="http://github.com/dsoccer442" title="Dylan Steele on Github" target="_blank"><i class="fa fa-github fa-2x"></i></a>
 	
 	<a href="tel:425-298-7459" title="Dylan Steele on Phone" target="_blank"><i class="fa fa-phone fa-2x"></i></a> 
-	<a href="mailto:you@email.com" title="Dylan Steele on Email" target="_blank"><i class="fa fa-envelope fa-2x"></i></a> 
+	<a href="mailto:dylan@dylansteele.me" title="Dylan Steele on Email" target="_blank"><i class="fa fa-envelope fa-2x"></i></a> 
 	<a href="/feed.xml" title="RSS Feed for Dylan Steele" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
 </div><!-- /.social-fas -->
   </footer>
