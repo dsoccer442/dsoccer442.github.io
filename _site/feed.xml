@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-01-20T14:17:06-08:00</updated>
+<updated>2014-01-20T14:35:38-08:00</updated>
 <id>/</id>
 <author>
   <name>Dylan Steele</name>
@@ -13,6 +13,24 @@
 </author>
 <icon>http://dylansteele.me/favicon.png</icon>
 <logo>http://dylansteele.me/images/logo.png</logo>
+
+
+<entry>
+  <title type="html"><![CDATA[CGI Is Amazing]]></title>
+  <link>/articles/cgi-architecture</link>
+  <id>/articles/cgi-architecture</id>
+  <published>2014-01-20T00:00:00-08:00</published>
+  <updated>2014-01-20T00:00:00-08:00</updated>
+  <author>
+    <name>Dylan Steele</name>
+    <uri></uri>
+    <email>dylan@dylansteele.me</email>
+  </author>
+  <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/7809605&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/7809605&quot;&gt;The Third &amp;amp; The Seventh&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user1337612&quot;&gt;Alex Roman&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/cgi-architecture&quot;&gt;CGI Is Amazing&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

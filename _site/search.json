@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "CGI Is Amazing",
+		  "category"   : "articles",
+		  "url"        : "/articles/cgi-architecture",
+		  "date"       : "2014-01-20 00:00:00 -0800",
+		  "shortdate"  : "January 20, 2014"
+		} ,
+	
+		{
 		  "title"      : "Sounders FC Interactive Roster",
 		  "category"   : "projects",
 		  "url"        : "/projects/sounders-fc-roster",
