@@ -1,64 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc></loc>
+        <loc>http://dylansteele.me</loc>
     </url>
     
     
     <url>
-        <loc>/articles/cgi-architecture</loc>
+        <loc>http://dylansteele.me/articles/seahawks</loc>
     </url>
     
     <url>
-        <loc>/projects/sounders-fc-roster</loc>
+        <loc>http://dylansteele.me/articles/spell-check</loc>
     </url>
     
     <url>
-        <loc>/projects/teen-ceo</loc>
+        <loc>http://dylansteele.me/articles/fourth-dimension</loc>
     </url>
     
     <url>
-        <loc>/articles/code-highlighting-post</loc>
+        <loc>http://dylansteele.me/articles/global-poverty</loc>
     </url>
     
     <url>
-        <loc>/articles/sample-link-post</loc>
+        <loc>http://dylansteele.me/articles/cgi-architecture</loc>
     </url>
     
     <url>
-        <loc>/projects/ics-graduation</loc>
+        <loc>http://dylansteele.me/projects/sounders-fc-roster</loc>
     </url>
     
     <url>
-        <loc>/articles/video-post</loc>
+        <loc>http://dylansteele.me/projects/teen-ceo</loc>
     </url>
     
     <url>
-        <loc>/projects/bittrust</loc>
+        <loc>http://dylansteele.me/articles/code-highlighting-post</loc>
     </url>
     
     <url>
-        <loc>/articles/readability-feature-post</loc>
+        <loc>http://dylansteele.me/articles/sample-link-post</loc>
     </url>
     
     <url>
-        <loc>/articles/sample-post-images</loc>
+        <loc>http://dylansteele.me/projects/ics-graduation</loc>
     </url>
     
     <url>
-        <loc>/projects/ics-app</loc>
+        <loc>http://dylansteele.me/articles/video-post</loc>
     </url>
     
     <url>
-        <loc>/articles/readability-post</loc>
+        <loc>http://dylansteele.me/projects/bittrust</loc>
     </url>
     
     <url>
-        <loc>/projects/rain-arcade</loc>
+        <loc>http://dylansteele.me/articles/readability-feature-post</loc>
     </url>
     
     <url>
-        <loc>/articles/sample-post</loc>
+        <loc>http://dylansteele.me/articles/sample-post-images</loc>
+    </url>
+    
+    <url>
+        <loc>http://dylansteele.me/projects/ics-app</loc>
+    </url>
+    
+    <url>
+        <loc>http://dylansteele.me/articles/readability-post</loc>
+    </url>
+    
+    <url>
+        <loc>http://dylansteele.me/projects/rain-arcade</loc>
+    </url>
+    
+    <url>
+        <loc>http://dylansteele.me/articles/sample-post</loc>
     </url>
     
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "CGI Is Amazing"
-description: "Custom written post descriptions are the way to go... if you're not lazy."
+description: ""
 category: articles
-tags: [video]
+tags: [video, design]
 read-time: 1 minute
 comments: true
 ---
