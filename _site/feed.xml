@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Hey, my name is Dylan.</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://dylansteele.me/feed.xml" />
-<link rel="alternate" type="text/html" href="http://dylansteele.me" />
-<updated>2014-02-02T10:32:44-08:00</updated>
-<id>http://dylansteele.me/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2014-02-06T10:41:46-08:00</updated>
+<id>/</id>
 <author>
   <name>Dylan Steele</name>
-  <uri>http://dylansteele.me/</uri>
+  <uri>/</uri>
   <email>dylan@dylansteele.me</email>
 </author>
 <icon>http://dylansteele.me/favicon.png</icon>
@@ -17,51 +17,51 @@
 
 <entry>
   <title type="html"><![CDATA[Go Hawks!]]></title>
-  <link>http://dylansteele.me/articles/seahawks</link>
-  <id>http://dylansteele.me/articles/seahawks</id>
+  <link>/articles/seahawks</link>
+  <id>/articles/seahawks</id>
   <published>2014-02-02T00:00:00-08:00</published>
   <updated>2014-02-02T00:00:00-08:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
-  <content type="html">&lt;p&gt;With a lul in homework, my friend an I decided to make a Seattle Seahawks highlight reel for the Super Bowl. Clips are from various YouTube clips and music is &lt;a href=&quot;https://www.youtube.com/watch?v=zH-BP4K8NAs&quot; title=&quot;12th Man Anthem&quot;&gt;“12th Man” by NoClue&lt;/a&gt;. Hope you enjoy!&lt;/p&gt;
+  <content type="html">&lt;p&gt;With a lul in homework, my friend and I decided to make a Seattle Seahawks highlight reel for the Super Bowl. Clips are from various YouTube videos and music is &lt;a href=&quot;https://www.youtube.com/watch?v=zH-BP4K8NAs&quot; target=&quot;_blank&quot;&gt;12th Man by NoClue&lt;/a&gt;. Hope you enjoy!&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube-nocookie.com/embed/Utw24ZGXrqQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/seahawks&quot;&gt;Go Hawks!&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on February 02, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/seahawks&quot;&gt;Go Hawks!&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on February 02, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Spell Check]]></title>
-  <link>http://dylansteele.me/articles/spell-check</link>
-  <id>http://dylansteele.me/articles/spell-check</id>
+  <link>/articles/spell-check</link>
+  <id>/articles/spell-check</id>
   <published>2014-01-27T15:50:10-08:00</published>
   <updated>2014-01-27T15:50:10-08:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;Spell check does not exist anymore
 - Facebook messages- asterick * fixes spelling
 - We no longer &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/spell-check&quot;&gt;Spell Check&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 27, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/spell-check&quot;&gt;Spell Check&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 27, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Explaining the Fourth Dimension]]></title>
-  <link>http://dylansteele.me/articles/fourth-dimension</link>
-  <id>http://dylansteele.me/articles/fourth-dimension</id>
+  <link>/articles/fourth-dimension</link>
+  <id>/articles/fourth-dimension</id>
   <published>2014-01-26T11:45:44-08:00</published>
   <updated>2014-01-26T11:45:44-08:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;I first read &lt;em&gt;Flatland&lt;/em&gt; about a month ago and it has quickly become one of my favorite books. Edwin Abbott is somehow able to combine abstract mathematical theory with social critique of England in such a way that the reader can seamlessly understand both interpretations at the same time. The allegory of the story aligns so well with either interpretation that if a mathmatician read the book, he or she could easily apply their knowledge to learning about &lt;/p&gt;
@@ -93,92 +93,93 @@
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube-nocookie.com/embed/C6kn6nXMWF0?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/fourth-dimension&quot;&gt;Explaining the Fourth Dimension&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/fourth-dimension&quot;&gt;Explaining the Fourth Dimension&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Global Poverty]]></title>
-  <link>http://dylansteele.me/articles/global-poverty</link>
-  <id>http://dylansteele.me/articles/global-poverty</id>
+  <link>/articles/global-poverty</link>
+  <id>/articles/global-poverty</id>
   <published>2014-01-22T21:54:30-08:00</published>
   <updated>2014-01-22T21:54:30-08:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube-nocookie.com/embed/aLvJ1mqlM98?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;http://annualletter.gatesfoundation.org/?cid=bg_yt_ll0_012018&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/global-poverty&quot;&gt;Global Poverty&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 22, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/global-poverty&quot;&gt;Global Poverty&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 22, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[CGI Is Amazing]]></title>
-  <link>http://dylansteele.me/articles/cgi-architecture</link>
-  <id>http://dylansteele.me/articles/cgi-architecture</id>
+  <link>/articles/cgi-architecture</link>
+  <id>/articles/cgi-architecture</id>
   <published>2014-01-20T00:00:00-08:00</published>
   <updated>2014-01-20T00:00:00-08:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/7809605&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/7809605&quot;&gt;The Third &amp;amp; The Seventh&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user1337612&quot;&gt;Alex Roman&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/7809605&quot; target=&quot;_blank&quot;&gt;The Third &amp;amp; The Seventh&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user1337612&quot; target=&quot;_blank&quot;&gt;Alex Roman&lt;/a&gt;.
 
-&lt;p&gt;When I first watched this video, I was under the impression that Alex Roman had filmed on location and added a few minor animations on top of the film, or even superimposed two videos on top of each other. It wasn’t until the very end, when I took the time to actually read the description, that I realized he had created this breathtaking production entirely on the computer. I can’t even imagine how long it would take someone to create this–3 months if they worked solely on it, maybe a year if it was a side project? Either way, I’m glad that he uploaded &lt;a href=&quot;http://vimeo.com/8217700&quot; title=&quot;Making of the Exeter&quot;&gt;a video&lt;/a&gt; on how he created one of the buildings.&lt;/p&gt;
+When I first watched this video, I was under the impression that Alex Roman had filmed on location and added a few minor animations on top of the film, or even superimposed two videos on top of each other. It wasn&#39;t until the very end, when I took the time to actually read the description, that I realized he had created this breathtaking production entirely on the computer. I can&#39;t even imagine how long it would take someone to create this–3 months if they worked solely on it, maybe a year if it was a side project? Either way, I&#39;m glad that he uploaded [a video](http://vimeo.com/8217700 &quot;Making of the Exeter&quot;) on how he created one of the buildings.
+&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/cgi-architecture&quot;&gt;CGI Is Amazing&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/cgi-architecture&quot;&gt;CGI Is Amazing&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sounders FC Interactive Roster]]></title>
   <link>http://soundersfc.herokuapp.com/</link>
-  <id>http://dylansteele.me/projects/sounders-fc-roster</id>
+  <id>/projects/sounders-fc-roster</id>
   <published>2013-12-24T00:00:00-08:00</published>
   <updated>2013-12-24T00:00:00-08:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;This was a very small side project finished in a few days as a way for fans to choose their preferred starting lineup for the Seattle Sounders FC after the team’s mass trading and signing of players. It allows users to choose players for each position without having the same player on the field multiple times. &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/projects/sounders-fc-roster&quot;&gt;Sounders FC Interactive Roster&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on December 24, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/projects/sounders-fc-roster&quot;&gt;Sounders FC Interactive Roster&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on December 24, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[TeenCEO]]></title>
   <link>http://teenceowa.com/</link>
-  <id>http://dylansteele.me/projects/teen-ceo</id>
+  <id>/projects/teen-ceo</id>
   <published>2013-09-14T00:00:00-07:00</published>
   <updated>2013-09-14T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;TeenCEO is the first business plan competition in Western Washington and is of of the most prestigious high school competitions in the state. Launched by the Lake Washington School District, TeenCEO gives high school students with operating businesses the chance to compete for cash and prizes and earn credibility. Professional faculty and staff are also involved to help the &lt;a href=&quot;http://teenceowa.com/contestants&quot; title=&quot;TeenCEO Contestants&quot;&gt;students contestants&lt;/a&gt;. I operate the site, managed through Wordpress, and helped to start the competition with the LWSD administration and three other students. &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/projects/teen-ceo&quot;&gt;TeenCEO&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on September 14, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/projects/teen-ceo&quot;&gt;TeenCEO&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on September 14, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Syntax Highlighting Post]]></title>
-  <link>http://dylansteele.me/articles/code-highlighting-post</link>
-  <id>http://dylansteele.me/articles/code-highlighting-post</id>
+  <link>/articles/code-highlighting-post</link>
+  <id>/articles/code-highlighting-post</id>
   <published>2013-08-16T00:00:00-07:00</published>
   <updated>2013-08-16T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -285,53 +286,53 @@ end
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/code-highlighting-post&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on August 16, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/code-highlighting-post&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on August 16, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sample Link Post]]></title>
   <link>http://mademistakes.com</link>
-  <id>http://dylansteele.me/articles/sample-link-post</id>
+  <id>/articles/sample-link-post</id>
   <published>2013-08-12T00:00:00-07:00</published>
   <updated>2013-08-12T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;So Simple Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To activate just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/sample-link-post&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on August 12, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/sample-link-post&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on August 12, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[ICS Graduation]]></title>
   <link>http://icsgraduation.herokuapp.com/</link>
-  <id>http://dylansteele.me/projects/ics-graduation</id>
+  <id>/projects/ics-graduation</id>
   <published>2013-07-01T00:00:00-07:00</published>
   <updated>2013-07-01T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;The ICS Graduation websites was made for the FBLA E-business competition and won first place at the national competition. It provides a system for students and other family members to purchase tickets to the graduation ceremony. It uses PHP in the backend to handle ticket requests and checkout services, but does not actually accept payment per competition guidelines.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/projects/ics-graduation&quot;&gt;ICS Graduation&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on July 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/projects/ics-graduation&quot;&gt;ICS Graduation&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on July 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[A Post with a Video]]></title>
-  <link>http://dylansteele.me/articles/video-post</link>
-  <id>http://dylansteele.me/articles/video-post</id>
+  <link>/articles/video-post</link>
+  <id>/articles/video-post</id>
   <published>2013-06-25T00:00:00-07:00</published>
   <updated>2013-06-25T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/SqYiglufb8Y&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
@@ -344,37 +345,37 @@ end
     &lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;http://www.youtube.com/embed/PWf4WUoMXwg&amp;quot; frameborder=&amp;quot;0&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
   &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/video-post&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on June 25, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/video-post&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on June 25, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[BitTrust]]></title>
   <link>http://bittrust.org/</link>
-  <id>http://dylansteele.me/projects/bittrust</id>
+  <id>/projects/bittrust</id>
   <published>2013-06-03T00:00:00-07:00</published>
   <updated>2013-06-03T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;After the recent increase of popularity in Bitcoin, &lt;a href=&quot;http://bittrust.org/&quot; title=&quot;BitTrust&quot;&gt;BitTrust&lt;/a&gt; offers the perfect solution to finding reputable online services that accept bitcoins. Users can review companies, such as merchants, exchanges, wallets, and escrows, or look up websites that they might use to find out what others have said. Currently, BitTrust relies on advertisements to generate revenue, but future plans to expand the user base involve growing profitablility of website. If you own a Bitcoin-friendly website, feel free to &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#111;&amp;#110;&amp;#116;&amp;#097;&amp;#099;&amp;#116;&amp;#064;&amp;#098;&amp;#105;&amp;#116;&amp;#116;&amp;#114;&amp;#117;&amp;#115;&amp;#116;&amp;#046;&amp;#111;&amp;#114;&amp;#103;&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/projects/bittrust&quot;&gt;BitTrust&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on June 03, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/projects/bittrust&quot;&gt;BitTrust&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on June 03, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
-  <link>http://dylansteele.me/articles/readability-feature-post</link>
-  <id>http://dylansteele.me/articles/readability-feature-post</id>
+  <link>/articles/readability-feature-post</link>
+  <id>/articles/readability-feature-post</id>
   <updated>2013-06-30T00:00:00-00:00</updated>
   <published>2013-05-23T00:00:00-07:00</published>
   
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;This is a sample post with a large feature image[^1] up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -418,19 +419,19 @@ end
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/readability-feature-post&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/readability-feature-post&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[A Post with Images]]></title>
-  <link>http://dylansteele.me/articles/sample-post-images</link>
-  <id>http://dylansteele.me/articles/sample-post-images</id>
+  <link>/articles/sample-post-images</link>
+  <id>/articles/sample-post-images</id>
   <published>2013-05-22T00:00:00-07:00</published>
   <updated>2013-05-22T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
@@ -491,36 +492,36 @@ end
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/sample-post-images&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on May 22, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/sample-post-images&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on May 22, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[ICS App]]></title>
   <link>https://itunes.apple.com/us/app/ics-app/id557809147?mt=8</link>
-  <id>http://dylansteele.me/projects/ics-app</id>
+  <id>/projects/ics-app</id>
   <published>2012-10-04T00:00:00-07:00</published>
   <updated>2012-10-04T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;The &lt;a href=&quot;https://itunes.apple.com/us/app/ics-app/id557809147?mt=8&quot; title=&quot;ICS App&quot;&gt;ICS App&lt;/a&gt; is the first mobile application in the Lake Washington School District, and was created specifically for the students, teachers, and parents of the International Community School in Kirkland. It offers the ability for students to receive alerts about upcoming school events or other announcements, find out about meetings for specific clubs, view their grades through online StandardsScore service, and contact teachers or the school with a staff directory. The application was coded in Objective-C with help from online tutorials and examples. There will be a an update of the application soon with better design and user interaction.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/projects/ics-app&quot;&gt;ICS App&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on October 04, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/projects/ics-app&quot;&gt;ICS App&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on October 04, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
-  <link>http://dylansteele.me/articles/readability-post</link>
-  <id>http://dylansteele.me/articles/readability-post</id>
+  <link>/articles/readability-post</link>
+  <id>/articles/readability-post</id>
   <published>2012-05-22T00:00:00-07:00</published>
   <updated>2012-05-22T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -564,37 +565,37 @@ end
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/readability-post&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/readability-post&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Rain Arcade]]></title>
   <link>http://www.rainarcade.com/</link>
-  <id>http://dylansteele.me/projects/rain-arcade</id>
+  <id>/projects/rain-arcade</id>
   <published>2011-07-01T00:00:00-07:00</published>
   <updated>2011-07-01T00:00:00-07:00</updated>
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;Rain Arcade is a mobile game development company focused on creating iOS puzzle games. Founded in 2012 through the StudentRND Incubator summer program, Rain Arcade serves to provide quality entertainment for your mobile devices. I worked as a developer for the game &lt;a href=&quot;https://itunes.apple.com/us/app/mole-run/id553609578?mt=8&quot; title=&quot;Mole Run&quot;&gt;Mole Run&lt;/a&gt;, a game we made for the iPhone and iPod Touch. We used the CoronaSDK so that the game could be coded for both iOS and Android devices. For more information check out &lt;a href=&quot;http://rainarcade.com/&quot; title=&quot;Rain Arcade&quot;&gt;our website&lt;/a&gt;.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/projects/rain-arcade&quot;&gt;Rain Arcade&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on July 01, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/projects/rain-arcade&quot;&gt;Rain Arcade&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on July 01, 2011.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sample Post]]></title>
-  <link>http://dylansteele.me/articles/sample-post</link>
-  <id>http://dylansteele.me/articles/sample-post</id>
+  <link>/articles/sample-post</link>
+  <id>/articles/sample-post</id>
   <updated>2013-05-31T00:00:00-00:00</updated>
   <published>2011-03-10T00:00:00-08:00</published>
   
   <author>
     <name>Dylan Steele</name>
-    <uri>http://dylansteele.me</uri>
+    <uri></uri>
     <email>dylan@dylansteele.me</email>
   </author>
   <content type="html">&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
@@ -615,7 +616,7 @@ end
 
 &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://dylansteele.me/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
 
@@ -718,7 +719,7 @@ end
 
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;This is a button&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://dylansteele.me/articles/sample-post&quot;&gt;Sample Post&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;http://dylansteele.me&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/articles/sample-post&quot;&gt;Sample Post&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
 </entry>
 
 </feed>

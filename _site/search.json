@@ -3,7 +3,7 @@
 		{
 		  "title"      : "Go Hawks!",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/seahawks",
+		  "url"        : "/articles/seahawks",
 		  "date"       : "2014-02-02 00:00:00 -0800",
 		  "shortdate"  : "February 02, 2014"
 		} ,
@@ -11,7 +11,7 @@
 		{
 		  "title"      : "Spell Check",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/spell-check",
+		  "url"        : "/articles/spell-check",
 		  "date"       : "2014-01-27 15:50:10 -0800",
 		  "shortdate"  : "January 27, 2014"
 		} ,
@@ -19,7 +19,7 @@
 		{
 		  "title"      : "Explaining the Fourth Dimension",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/fourth-dimension",
+		  "url"        : "/articles/fourth-dimension",
 		  "date"       : "2014-01-26 11:45:44 -0800",
 		  "shortdate"  : "January 26, 2014"
 		} ,
@@ -27,7 +27,7 @@
 		{
 		  "title"      : "Global Poverty",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/global-poverty",
+		  "url"        : "/articles/global-poverty",
 		  "date"       : "2014-01-22 21:54:30 -0800",
 		  "shortdate"  : "January 22, 2014"
 		} ,
@@ -35,7 +35,7 @@
 		{
 		  "title"      : "CGI Is Amazing",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/cgi-architecture",
+		  "url"        : "/articles/cgi-architecture",
 		  "date"       : "2014-01-20 00:00:00 -0800",
 		  "shortdate"  : "January 20, 2014"
 		} ,
@@ -43,7 +43,7 @@
 		{
 		  "title"      : "Sounders FC Interactive Roster",
 		  "category"   : "projects",
-		  "url"        : "http://dylansteele.me/projects/sounders-fc-roster",
+		  "url"        : "/projects/sounders-fc-roster",
 		  "date"       : "2013-12-24 00:00:00 -0800",
 		  "shortdate"  : "December 24, 2013"
 		} ,
@@ -51,7 +51,7 @@
 		{
 		  "title"      : "TeenCEO",
 		  "category"   : "projects",
-		  "url"        : "http://dylansteele.me/projects/teen-ceo",
+		  "url"        : "/projects/teen-ceo",
 		  "date"       : "2013-09-14 00:00:00 -0700",
 		  "shortdate"  : "September 14, 2013"
 		} ,
@@ -59,7 +59,7 @@
 		{
 		  "title"      : "Syntax Highlighting Post",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/code-highlighting-post",
+		  "url"        : "/articles/code-highlighting-post",
 		  "date"       : "2013-08-16 00:00:00 -0700",
 		  "shortdate"  : "August 16, 2013"
 		} ,
@@ -67,7 +67,7 @@
 		{
 		  "title"      : "Sample Link Post",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/sample-link-post",
+		  "url"        : "/articles/sample-link-post",
 		  "date"       : "2013-08-12 00:00:00 -0700",
 		  "shortdate"  : "August 12, 2013"
 		} ,
@@ -75,7 +75,7 @@
 		{
 		  "title"      : "ICS Graduation",
 		  "category"   : "projects",
-		  "url"        : "http://dylansteele.me/projects/ics-graduation",
+		  "url"        : "/projects/ics-graduation",
 		  "date"       : "2013-07-01 00:00:00 -0700",
 		  "shortdate"  : "July 01, 2013"
 		} ,
@@ -83,7 +83,7 @@
 		{
 		  "title"      : "A Post with a Video",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/video-post",
+		  "url"        : "/articles/video-post",
 		  "date"       : "2013-06-25 00:00:00 -0700",
 		  "shortdate"  : "June 25, 2013"
 		} ,
@@ -91,7 +91,7 @@
 		{
 		  "title"      : "BitTrust",
 		  "category"   : "projects",
-		  "url"        : "http://dylansteele.me/projects/bittrust",
+		  "url"        : "/projects/bittrust",
 		  "date"       : "2013-06-03 00:00:00 -0700",
 		  "shortdate"  : "June 03, 2013"
 		} ,
@@ -99,7 +99,7 @@
 		{
 		  "title"      : "Post with Large Feature Image and Text",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/readability-feature-post",
+		  "url"        : "/articles/readability-feature-post",
 		  "date"       : "2013-05-23 00:00:00 -0700",
 		  "shortdate"  : "May 23, 2013"
 		} ,
@@ -107,7 +107,7 @@
 		{
 		  "title"      : "A Post with Images",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/sample-post-images",
+		  "url"        : "/articles/sample-post-images",
 		  "date"       : "2013-05-22 00:00:00 -0700",
 		  "shortdate"  : "May 22, 2013"
 		} ,
@@ -115,7 +115,7 @@
 		{
 		  "title"      : "ICS App",
 		  "category"   : "projects",
-		  "url"        : "http://dylansteele.me/projects/ics-app",
+		  "url"        : "/projects/ics-app",
 		  "date"       : "2012-10-04 00:00:00 -0700",
 		  "shortdate"  : "October 04, 2012"
 		} ,
@@ -123,7 +123,7 @@
 		{
 		  "title"      : "Testing Readability with a Bunch of Text",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/readability-post",
+		  "url"        : "/articles/readability-post",
 		  "date"       : "2012-05-22 00:00:00 -0700",
 		  "shortdate"  : "May 22, 2012"
 		} ,
@@ -131,7 +131,7 @@
 		{
 		  "title"      : "Rain Arcade",
 		  "category"   : "projects",
-		  "url"        : "http://dylansteele.me/projects/rain-arcade",
+		  "url"        : "/projects/rain-arcade",
 		  "date"       : "2011-07-01 00:00:00 -0700",
 		  "shortdate"  : "July 01, 2011"
 		} ,
@@ -139,7 +139,7 @@
 		{
 		  "title"      : "Sample Post",
 		  "category"   : "articles",
-		  "url"        : "http://dylansteele.me/articles/sample-post",
+		  "url"        : "/articles/sample-post",
 		  "date"       : "2011-03-10 00:00:00 -0800",
 		  "shortdate"  : "March 10, 2011"
 		} 

@@ -68,3 +68,16 @@
 }(document, 'script'));
 </script>
 <!-- /GFYCAT -->
+<!-- PARALLAX SCROLLING
+<script>
+  $(document).ready(function(){
+    $('header[data-type="background"]').each(function(){
+      var $bgobj = $(this); // assigning the object
+      $(window).scroll(function() {
+        var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+        var coords = '50% '+ yPos + 'px';
+        $bgobj.css({ backgroundPosition: coords });
+      }); 
+    });    
+  });
+</script> -->
