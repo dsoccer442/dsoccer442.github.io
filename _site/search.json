@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "School Union",
+		  "category"   : "quotes",
+		  "url"        : "/quotes/school-union",
+		  "date"       : "2014-02-14 00:00:00 -0800",
+		  "shortdate"  : "February 14, 2014"
+		} ,
+	
+		{
 		  "title"      : "Go Hawks!",
 		  "category"   : "articles",
 		  "url"        : "/articles/seahawks",
@@ -38,6 +46,22 @@
 		  "url"        : "/articles/cgi-architecture",
 		  "date"       : "2014-01-20 00:00:00 -0800",
 		  "shortdate"  : "January 20, 2014"
+		} ,
+	
+		{
+		  "title"      : "Career Night",
+		  "category"   : "projects",
+		  "url"        : "/projects/career-night",
+		  "date"       : "2014-01-06 00:00:00 -0800",
+		  "shortdate"  : "January 06, 2014"
+		} ,
+	
+		{
+		  "title"      : "Live Your Life Proud",
+		  "category"   : "quotes",
+		  "url"        : "/quotes/proud-life",
+		  "date"       : "2014-01-01 00:00:00 -0800",
+		  "shortdate"  : "January 01, 2014"
 		} ,
 	
 		{
@@ -110,6 +134,22 @@
 		  "url"        : "/articles/sample-post-images",
 		  "date"       : "2013-05-22 00:00:00 -0700",
 		  "shortdate"  : "May 22, 2013"
+		} ,
+	
+		{
+		  "title"      : "Falling in Love",
+		  "category"   : "quotes",
+		  "url"        : "/quotes/falling-in-love",
+		  "date"       : "2013-02-14 00:00:00 -0800",
+		  "shortdate"  : "February 14, 2013"
+		} ,
+	
+		{
+		  "title"      : "Museum of Math",
+		  "category"   : "articles",
+		  "url"        : "/articles/momath",
+		  "date"       : "2012-12-20 00:00:00 -0800",
+		  "shortdate"  : "December 20, 2012"
 		} ,
 	
 		{

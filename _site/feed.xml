@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-02-06T10:41:46-08:00</updated>
+<updated>2014-02-15T00:38:14-08:00</updated>
 <id>/</id>
 <author>
   <name>Dylan Steele</name>
@@ -13,6 +13,23 @@
 </author>
 <icon>http://dylansteele.me/favicon.png</icon>
 <logo>http://dylansteele.me/images/logo.png</logo>
+
+
+<entry>
+  <title type="html"><![CDATA[School Union]]></title>
+  <link>/quotes/school-union</link>
+  <id>/quotes/school-union</id>
+  <published>2014-02-14T00:00:00-08:00</published>
+  <updated>2014-02-14T00:00:00-08:00</updated>
+  <author>
+    <name>Dylan Steele</name>
+    <uri></uri>
+    <email>dylan@dylansteele.me</email>
+  </author>
+  <content type="html">&lt;p&gt;“If a bunch of actual adults suddenly found themselves trapped in high school, the first thing they’d do is form a union and renegotiate all the rules with the administration.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/quotes/school-union&quot;&gt;School Union&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on February 14, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -134,6 +151,40 @@ When I first watched this video, I was under the impression that Alex Roman had 
 &lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;/articles/cgi-architecture&quot;&gt;CGI Is Amazing&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Career Night]]></title>
+  <link>/projects/career-night</link>
+  <id>/projects/career-night</id>
+  <published>2014-01-06T00:00:00-08:00</published>
+  <updated>2014-01-06T00:00:00-08:00</updated>
+  <author>
+    <name>Dylan Steele</name>
+    <uri></uri>
+    <email>dylan@dylansteele.me</email>
+  </author>
+  <content type="html">
+
+  &lt;p&gt;&lt;a href=&quot;/projects/career-night&quot;&gt;Career Night&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 06, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Live Your Life Proud]]></title>
+  <link>/quotes/proud-life</link>
+  <id>/quotes/proud-life</id>
+  <published>2014-01-01T00:00:00-08:00</published>
+  <updated>2014-01-01T00:00:00-08:00</updated>
+  <author>
+    <name>Dylan Steele</name>
+    <uri></uri>
+    <email>dylan@dylansteele.me</email>
+  </author>
+  <content type="html">&lt;p&gt;“For what it’s worth: it’s never too late to be whoever you want to be. I hope you live a life you’re proud of, and if you find that you’re not, I hope you have the strength to start all over again.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/quotes/proud-life&quot;&gt;Live Your Life Proud&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on January 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -497,6 +548,44 @@ end
 
 
 <entry>
+  <title type="html"><![CDATA[Falling in Love]]></title>
+  <link>/quotes/falling-in-love</link>
+  <id>/quotes/falling-in-love</id>
+  <published>2013-02-14T00:00:00-08:00</published>
+  <updated>2013-02-14T00:00:00-08:00</updated>
+  <author>
+    <name>Dylan Steele</name>
+    <uri></uri>
+    <email>dylan@dylansteele.me</email>
+  </author>
+  <content type="html">&lt;p&gt;“Falling in love is not at all the most stupid thing that people do — but gravitation cannot be held responsible for it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/quotes/falling-in-love&quot;&gt;Falling in Love&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on February 14, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Museum of Math]]></title>
+  <link>/articles/momath</link>
+  <id>/articles/momath</id>
+  <published>2012-12-20T00:00:00-08:00</published>
+  <updated>2012-12-20T00:00:00-08:00</updated>
+  <author>
+    <name>Dylan Steele</name>
+    <uri></uri>
+    <email>dylan@dylansteele.me</email>
+  </author>
+  <content type="html">&lt;p&gt;New York City now boasts the newly constructed &lt;a href=&quot;http://momath.org&quot; target=&quot;_blank&quot;&gt;MoMath&lt;/a&gt;, which opened up on December 6th. I had the chance to visit the new museum and even got an after hours interview with Glen Whitney, the executive director for the museum. Whitney, 42, previously worked at Renaissance Technologies hedge fund as a quantitative analyst and as a math professor. Asked about his motivation for the creation of MoMath, Whitney cited his passion for mathematics. He wants kids, and adults alike, to see math how it truly is–not as a set of recipes that lead to the right answer if followed exactly–but as creative, diverse, and beautiful. In fact, according to Whitney, &lt;strong&gt;“Math is one of the few subjects that someone can still readily discover the unknown and then create from that.” &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Though aimed at ages 9-14, the hands-on exhibits were enthraling even to me, as high schooler. For example, “math squares” creates virtual puzzels on a LED floor that change ever so often and advance to harder levels as you solve the problems. As well, “Square-wheel trike” represents the multi-aged engagement that Whitney wanted to offer: experiences that everyone from a kindergartener to a pHD professor would be interested in. Young kids view the bike as a fun ride, while high schoolers see the relation of geometry in wheels and ground, while, finally, graduate-level mathematicians understand the differential equations needed to find the shapes. &lt;/p&gt;
+
+&lt;p&gt;The museum helps students understand that math is connected to architecture, nature, roller coasters, music and art. Whitney commented on this, saying that he wants to encourage kids to go into math fields with pass ion and hopes that MoMath can be the experience that sets them on that course. Whitney hopes to spread the idea of creativity and discovery in math across the country to help the math deficient in America, because &lt;strong&gt;“if you’re not part of the solution, you’re part of the problem.” &lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/momath&quot;&gt;Museum of Math&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on December 20, 2012.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[ICS App]]></title>
   <link>https://itunes.apple.com/us/app/ics-app/id557809147?mt=8</link>
   <id>/projects/ics-app</id>
@@ -510,216 +599,6 @@ end
   <content type="html">&lt;p&gt;The &lt;a href=&quot;https://itunes.apple.com/us/app/ics-app/id557809147?mt=8&quot; title=&quot;ICS App&quot;&gt;ICS App&lt;/a&gt; is the first mobile application in the Lake Washington School District, and was created specifically for the students, teachers, and parents of the International Community School in Kirkland. It offers the ability for students to receive alerts about upcoming school events or other announcements, find out about meetings for specific clubs, view their grades through online StandardsScore service, and contact teachers or the school with a staff directory. The application was coded in Objective-C with help from online tutorials and examples. There will be a an update of the application soon with better design and user interaction.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;/projects/ics-app&quot;&gt;ICS App&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on October 04, 2012.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
-  <link>/articles/readability-post</link>
-  <id>/articles/readability-post</id>
-  <published>2012-05-22T00:00:00-07:00</published>
-  <updated>2012-05-22T00:00:00-07:00</updated>
-  <author>
-    <name>Dylan Steele</name>
-    <uri></uri>
-    <email>dylan@dylansteele.me</email>
-  </author>
-  <content type="html">&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s. &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie &lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage &lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
-
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
-
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
-
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;/articles/readability-post&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Rain Arcade]]></title>
-  <link>http://www.rainarcade.com/</link>
-  <id>/projects/rain-arcade</id>
-  <published>2011-07-01T00:00:00-07:00</published>
-  <updated>2011-07-01T00:00:00-07:00</updated>
-  <author>
-    <name>Dylan Steele</name>
-    <uri></uri>
-    <email>dylan@dylansteele.me</email>
-  </author>
-  <content type="html">&lt;p&gt;Rain Arcade is a mobile game development company focused on creating iOS puzzle games. Founded in 2012 through the StudentRND Incubator summer program, Rain Arcade serves to provide quality entertainment for your mobile devices. I worked as a developer for the game &lt;a href=&quot;https://itunes.apple.com/us/app/mole-run/id553609578?mt=8&quot; title=&quot;Mole Run&quot;&gt;Mole Run&lt;/a&gt;, a game we made for the iPhone and iPod Touch. We used the CoronaSDK so that the game could be coded for both iOS and Android devices. For more information check out &lt;a href=&quot;http://rainarcade.com/&quot; title=&quot;Rain Arcade&quot;&gt;our website&lt;/a&gt;.&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;/projects/rain-arcade&quot;&gt;Rain Arcade&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on July 01, 2011.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Sample Post]]></title>
-  <link>/articles/sample-post</link>
-  <id>/articles/sample-post</id>
-  <updated>2013-05-31T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00-08:00</published>
-  
-  <author>
-    <name>Dylan Steele</name>
-    <uri></uri>
-    <email>dylan@dylansteele.me</email>
-  </author>
-  <content type="html">&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table rules=&quot;groups&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
-
-&lt;div&gt;
-    &lt;pre&gt;&lt;code class=&quot;css&quot;&gt;#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;Non Pygments code example&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn&#39;t it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;This is a button&lt;/a&gt;&lt;/div&gt;
-
-  &lt;p&gt;&lt;a href=&quot;/articles/sample-post&quot;&gt;Sample Post&lt;/a&gt; was originally published by Dylan Steele at &lt;a href=&quot;&quot;&gt;Hey, my name is Dylan.&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
 </entry>
 
 </feed>

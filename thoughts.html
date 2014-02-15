@@ -1,8 +1,16 @@
 ---
-layout: page
+layout: projects-preview
 title: Thoughts
 permalink: /thoughts/index.html
-description: "An archive of links I like."
+description: "An archive of quotes I like."
 ---
 
-<p>Thinking...</p>
+<ul class="quotes-list">
+{% for post in site.categories['quotes'] %}
+	<li class="quote" id="{{ post.title }}">
+		<h3 class="quote-header">{{ post.title }}</h3>
+		<p><em>{{ post.content }}</em></p>
+		<p class="quote-author">– {{ post.author }}</p>
+	</li>
+{% endfor %}
+</ul>

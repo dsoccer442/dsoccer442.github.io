@@ -6,6 +6,10 @@
     
     
     <url>
+        <loc>/quotes/school-union</loc>
+    </url>
+    
+    <url>
         <loc>/articles/seahawks</loc>
     </url>
     
@@ -23,6 +27,14 @@
     
     <url>
         <loc>/articles/cgi-architecture</loc>
+    </url>
+    
+    <url>
+        <loc>/projects/career-night</loc>
+    </url>
+    
+    <url>
+        <loc>/quotes/proud-life</loc>
     </url>
     
     <url>
@@ -59,6 +71,14 @@
     
     <url>
         <loc>/articles/sample-post-images</loc>
+    </url>
+    
+    <url>
+        <loc>/quotes/falling-in-love</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/momath</loc>
     </url>
     
     <url>
