@@ -1967,7 +1967,7 @@ svg:not(:root) {
 }
 
 .fa {
-    margin: 0px 10px;
+    margin: 15px 10px;
 }
 
 .fa:hover {
@@ -3018,6 +3018,10 @@ span+.entry-title {
     font-size: 14px;
     font-size: .875rem;
     text-transform: uppercase;
+}
+
+.entry-date {
+    margin-top: 15px;
 }
 
 @media only screen and (min-width:48em) {
