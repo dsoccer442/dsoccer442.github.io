@@ -2,9 +2,9 @@
 
 * {
     position: relative;
-    -webkit-box-sizing: border-box;
+/*    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
 }
 
 body,html {
@@ -423,6 +423,7 @@ body {
     z-index: -1;
     top: 0;
     left: 0;
+    max-height: 360px;
 }
 
 .blurImg > div {
@@ -434,12 +435,14 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     background-position: center center;
+    max-height: 360px;
 }
 
 .blur {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    max-height: 360px;
 }
 
 .container>header h1 {
@@ -3140,6 +3143,7 @@ span+.entry-title {
     color: #555;
     text-align: center;
     *zoom: 1;
+    background: #F7F7F7;
 }
 
 .footer-wrapper:after,.footer-wrapper:before {
