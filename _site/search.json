@@ -17,30 +17,6 @@
 		} ,
 	
 		{
-		  "title"      : "Spell Check",
-		  "category"   : "articles",
-		  "url"        : "/articles/spell-check",
-		  "date"       : "2014-01-27 15:50:10 -0800",
-		  "shortdate"  : "January 27, 2014"
-		} ,
-	
-		{
-		  "title"      : "Explaining the Fourth Dimension",
-		  "category"   : "articles",
-		  "url"        : "/articles/fourth-dimension",
-		  "date"       : "2014-01-26 11:45:44 -0800",
-		  "shortdate"  : "January 26, 2014"
-		} ,
-	
-		{
-		  "title"      : "Global Poverty",
-		  "category"   : "articles",
-		  "url"        : "/articles/global-poverty",
-		  "date"       : "2014-01-22 21:54:30 -0800",
-		  "shortdate"  : "January 22, 2014"
-		} ,
-	
-		{
 		  "title"      : "CGI Is Amazing",
 		  "category"   : "articles",
 		  "url"        : "/articles/cgi-architecture",

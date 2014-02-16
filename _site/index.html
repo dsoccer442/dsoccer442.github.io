@@ -68,8 +68,13 @@
 				<span class="right"></span>
 			</div> -->
 		  <!-- Collect the nav links, forms, and other content for toggling -->
-		  <header>
-				<h1 class="site-title animated fadeIn"><a href="">Hey, my name is Dylan.</a></h1><span><h2 class="site-description animated fadeIn" itemprop="description">Developer. Thinker. TV Watcher.</h2></span>
+		    <div class="blurImg">
+		  		<div style="background-image: url('../../images/so-simple-sample-image-2.jpg')"></div>
+		  		<div class="blur" style="background-image: url('../../images/so-simple-sample-image-2-blur.jpg')"></div>
+		  	</div>
+		  	<header>		  	
+					<h1 class="site-title animated fadeIn"><a href="">Hey, my name is Dylan.</a></h1>
+					<span><h2 class="site-description animated fadeIn" itemprop="description">Developer. Thinker. TV Watcher.</h2></span>
 			</header>
 		  	<div class="component">
 				<!-- <h2>Welcome to my blog</h2> -->
@@ -163,26 +168,24 @@
 
   <li><article>
      
-    <a href="/articles/spell-check"><i class="fa fa-pencil"></i> 
-    Spell Check 
-  <span class="entry-date">Posted in <strong>Articles</strong> &nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->2 minutes </span></a></article></li>
-  <p>Spell check does not exist anymore
-- Facebook messages- asterick * fixes spelling
-- We no longer 
-&nbsp; 
+    <a href="/articles/cgi-architecture"><i class="fa fa-pencil"></i> 
+    CGI Is Amazing 
+  <span class="entry-date">Posted in <strong>Articles</strong> &nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->1 minute </span></a></article></li>
+  <p>The Third &amp; The Seventh from Alex Roman. When I first watched this video, I was under the impression that Alex Roman had filmed on location and added a few minor animations on top of the film, or even superimposed...&nbsp; 
     
-    <a href="/articles/spell-check">Read more</a> 
+    <a href="/articles/cgi-architecture">Read more</a> 
     
   </p>
 
   <li><article>
-     
-    <a href="/articles/fourth-dimension"><i class="fa fa-pencil"></i> 
-    Explaining the Fourth Dimension 
-  <span class="entry-date">Posted in <strong>Articles</strong> &nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->2 minutes </span></a></article></li>
-  <p>I first read Flatland about a month ago and it has quickly become one of my favorite books. Edwin Abbott is somehow able to combine abstract mathematical theory with social critique of England in such a way that the reader...&nbsp; 
+    <a href="/projects/career-night"><i class="fa fa-briefcase"></i> 
     
-    <a href="/articles/fourth-dimension">Read more</a> 
+    Career Night 
+  <span class="entry-date">Posted in <strong>Projects</strong> </span></a></article></li>
+  <p>
+&nbsp; 
+    <a href="/projects/career-night">Read more</a> 
+    
     
   </p>
 
@@ -194,7 +197,7 @@
     <a href="/page2/" class="btn" title="Older Posts">Older Posts &raquo;</a>
      
   </nav>
-Page: 1 of 6
+Page: 1 of 5
 <!--   <br/><br/>
   <a href="/categories" class="" title="Category Archive">View Blog by Categories</a>
   |
@@ -313,7 +316,19 @@ Page: 1 of 6
       }); 
     });    
   });
-</script> -->          
+</script> -->
+<!-- Blur Header Image -->
+<script>
+(function() {
+  $(window).scroll(function() {
+    var oVal;
+    oVal = $(window).scrollTop() / 240;
+    return $(".blur").css("opacity", oVal);
+  });
+
+}).call(this);
+</script>
+<!-- /Blur Header Image -->          
 
 </body>
 </html>

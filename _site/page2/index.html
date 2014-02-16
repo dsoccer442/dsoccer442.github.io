@@ -68,8 +68,13 @@
 				<span class="right"></span>
 			</div> -->
 		  <!-- Collect the nav links, forms, and other content for toggling -->
-		  <header>
-				<h1 class="site-title animated fadeIn"><a href="">Hey, my name is Dylan.</a></h1><span><h2 class="site-description animated fadeIn" itemprop="description">Developer. Thinker. TV Watcher.</h2></span>
+		    <div class="blurImg">
+		  		<div style="background-image: url('../../images/so-simple-sample-image-2.jpg')"></div>
+		  		<div class="blur" style="background-image: url('../../images/so-simple-sample-image-2-blur.jpg')"></div>
+		  	</div>
+		  	<header>		  	
+					<h1 class="site-title animated fadeIn"><a href="">Hey, my name is Dylan.</a></h1>
+					<span><h2 class="site-description animated fadeIn" itemprop="description">Developer. Thinker. TV Watcher.</h2></span>
 			</header>
 		  	<div class="component">
 				<!-- <h2>Welcome to my blog</h2> -->
@@ -137,43 +142,6 @@
 
   <li><article>
      
-    <a href="/articles/global-poverty"><i class="fa fa-pencil"></i> 
-    Global Poverty 
-  <span class="entry-date">Posted in <strong>Articles</strong> &nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->2 minutes </span></a></article></li>
-  <p>
-
-http://annualletter.gatesfoundation.org/?cid=bg_yt_ll0_012018
-&nbsp; 
-    
-    <a href="/articles/global-poverty">Read more</a> 
-    
-  </p>
-
-  <li><article>
-     
-    <a href="/articles/cgi-architecture"><i class="fa fa-pencil"></i> 
-    CGI Is Amazing 
-  <span class="entry-date">Posted in <strong>Articles</strong> &nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->1 minute </span></a></article></li>
-  <p>The Third &amp; The Seventh from Alex Roman. When I first watched this video, I was under the impression that Alex Roman had filmed on location and added a few minor animations on top of the film, or even superimposed...&nbsp; 
-    
-    <a href="/articles/cgi-architecture">Read more</a> 
-    
-  </p>
-
-  <li><article>
-    <a href="/projects/career-night"><i class="fa fa-briefcase"></i> 
-    
-    Career Night 
-  <span class="entry-date">Posted in <strong>Projects</strong> </span></a></article></li>
-  <p>
-&nbsp; 
-    <a href="/projects/career-night">Read more</a> 
-    
-    
-  </p>
-
-  <li><article>
-     
     
     <a href="/thoughts/#Live Your Life Proud"><i class="fa fa-quote-left"></i> Live Your Life Proud 
   <span class="entry-date">Posted in <strong>Quotes</strong> </span></a></article></li>
@@ -181,6 +149,39 @@ http://annualletter.gatesfoundation.org/?cid=bg_yt_ll0_012018
     
     
     <a href="/thoughts/#Live Your Life Proud">Read more</a> 
+  </p>
+
+  <li><article>
+    <a href="/projects/sounders-fc-roster"><i class="fa fa-briefcase"></i> 
+    
+    Sounders FC Interactive Roster 
+  <span class="entry-date">Posted in <strong>Projects</strong> </span></a></article></li>
+  <p>This was a very small side project finished in a few days as a way for fans to choose their preferred starting lineup for the Seattle Sounders FC after the team’s mass trading and signing of players. It allows users...&nbsp; 
+    <a href="/projects/sounders-fc-roster">Read more</a> 
+    
+    
+  </p>
+
+  <li><article>
+    <a href="/projects/teen-ceo"><i class="fa fa-briefcase"></i> 
+    
+    TeenCEO 
+  <span class="entry-date">Posted in <strong>Projects</strong> </span></a></article></li>
+  <p>TeenCEO is the first business plan competition in Western Washington and is of of the most prestigious high school competitions in the state. Launched by the Lake Washington School District, TeenCEO gives high school students with operating businesses the chance...&nbsp; 
+    <a href="/projects/teen-ceo">Read more</a> 
+    
+    
+  </p>
+
+  <li><article>
+     
+    <a href="/articles/code-highlighting-post"><i class="fa fa-pencil"></i> 
+    Syntax Highlighting Post 
+  <span class="entry-date">Posted in <strong>Articles</strong> &nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->6 minutes </span></a></article></li>
+  <p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures...&nbsp; 
+    
+    <a href="/articles/code-highlighting-post">Read more</a> 
+    
   </p>
 
 <br>
@@ -195,7 +196,7 @@ http://annualletter.gatesfoundation.org/?cid=bg_yt_ll0_012018
     <a href="/page3/" class="btn" title="Older Posts">Older Posts &raquo;</a>
      
   </nav>
-Page: 2 of 6
+Page: 2 of 5
 <!--   <br/><br/>
   <a href="/categories" class="" title="Category Archive">View Blog by Categories</a>
   |
@@ -314,7 +315,19 @@ Page: 2 of 6
       }); 
     });    
   });
-</script> -->          
+</script> -->
+<!-- Blur Header Image -->
+<script>
+(function() {
+  $(window).scroll(function() {
+    var oVal;
+    oVal = $(window).scrollTop() / 240;
+    return $(".blur").css("opacity", oVal);
+  });
+
+}).call(this);
+</script>
+<!-- /Blur Header Image -->          
 
 </body>
 </html>

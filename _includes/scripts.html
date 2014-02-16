@@ -81,3 +81,15 @@
     });    
   });
 </script> -->
+<!-- Blur Header Image -->
+<script>
+(function() {
+  $(window).scroll(function() {
+    var oVal;
+    oVal = $(window).scrollTop() / 240;
+    return $(".blur").css("opacity", oVal);
+  });
+
+}).call(this);
+</script>
+<!-- /Blur Header Image -->
