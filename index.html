@@ -13,7 +13,11 @@ tags: [Dylan, Steele, blog, home]
     {% if post.categories contains 'articles' %}<a href="{{ site.url }}{{ post.url }}"><i class="fa fa-pencil"></i> {% endif %}
     {% if post.categories contains 'quotes' %}<a href="{{ site.url }}/thoughts/#{{ post.title }}"><i class="fa fa-quote-left"></i> {% endif %}{{ post.title }} 
   <span class="entry-date">Posted in <strong>{{ post.categories | join: ', ' | capitalize }}</strong> {% if post.read-time %}&nbsp;&bull;&nbsp; <!-- <i class="fa fa-clock-o"></i>-->{{ post.read-time }} {% endif %}</span></a></article></li>
-  <p>{{ post.content | strip_html | truncatewords:40 }}&nbsp; <a href="{{ post.url }}">Read more</a></p>
+  <p>{{ post.content | strip_html | truncatewords:40 }}&nbsp; 
+    {% if post.categories contains 'projects' %}<a href="{{ post.url }}">Read more</a> {% endif %}
+    {% if post.categories contains 'articles' %}<a href="{{ post.url }}">Read more</a> {% endif %}
+    {% if post.categories contains 'quotes' %}<a href="{{ site.url }}/thoughts/#{{ post.title }}">Read more</a> {% endif %}
+  </p>
 {% endfor %}
 <br>
  <div align="center">
