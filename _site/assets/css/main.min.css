@@ -1967,7 +1967,7 @@ svg:not(:root) {
 }
 
 .fa {
-    margin: 15px 10px;
+    margin: 0px 10px;
 }
 
 .fa:hover {

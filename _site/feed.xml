@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title type="text">Hey, my name is Dylan.</title>
+    <title>Hey, my name is Dylan.</title>
     <description>Developer. Thinker. TV Watcher.</description>    
     <link rel="alternate" type="text/html"></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <id></id>
-    <updated>2014-02-15T21:32:04-08:00</updated>
+    <updated>2014-02-15T21:48:07-08:00</updated>
     <author>
       <name>Dylan Steele</name>
       <uri>/</uri>
