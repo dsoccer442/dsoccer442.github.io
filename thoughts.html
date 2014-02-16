@@ -5,12 +5,14 @@ permalink: /thoughts/index.html
 description: "An archive of quotes I like."
 ---
 
-<ul class="quotes-list">
-{% for post in site.categories['quotes'] %}
-	<li class="quote" id="{{ post.title }}">
-		<h3 class="quote-header">{{ post.title }}</h3>
-		<p><em>{{ post.content }}</em></p>
-		<p class="quote-author">– {{ post.author }}</p>
-	</li>
-{% endfor %}
-</ul>
+<article class="entry-content">
+	<ul class="quotes-list">
+	{% for post in site.categories['quotes'] %}
+		<li class="quote" id="{{ post.title }}">
+			<h3 class="quote-header">{{ post.title }}</h3>
+			<p><em>{{ post.content }}</em></p>
+			<p class="quote-author">– {{ post.author }}</p>
+		</li>
+	{% endfor %}
+	</ul>
+</article>

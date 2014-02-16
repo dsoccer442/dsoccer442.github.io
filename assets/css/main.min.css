@@ -3399,6 +3399,7 @@ pre .coffeescript .javascript,pre .javascript .xml,pre .tex .formula,pre .xml .c
 }*/
 .quotes-list {
     list-style: none;
+    padding-left: 0px;
 }
 .quote {
     border-bottom: 1px dashed #555;
