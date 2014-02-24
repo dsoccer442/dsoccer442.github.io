@@ -5,7 +5,7 @@
     <description>Developer. Thinker. TV Watcher.</description>    
     <link rel="alternate" type="text/html"></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <updated>2014-02-23T22:28:08-08:00</updated>
+    <updated>2014-02-24T00:09:45-08:00</updated>
     <author>
       <name>Dylan Steele</name>
       <uri>/</uri>
@@ -13,6 +13,42 @@
     </author>
     <icon>http://dylansteele.me/favicon.png</icon>
     <logo>http://dylansteele.me/images/logo.png</logo>
+    
+      <item>
+        <title>Adding Heroku to Cloud9</title>
+        <description>&lt;h4 id=&quot;these-directions-work-for-a-new-html5-document-created-in-cloud9&quot;&gt;These directions work for a new HTML5 document created in Cloud9.&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a heroku account by signing up at heroku.com&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Cloud9, create an index.php file that contains this line of code:
+ &lt;?php include_once(&quot;index.html&quot;); ?&gt;
+where index.html is your main html document&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Type ‘git init’ without quotes into terminal of Cloud9 project and press return&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Cloud9, click on the deploy button (the hot air balloon) and click the plus button to add heroku as a deploy target. Enter your account information and add a new target.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to https://dashboard.heroku.com/apps and click on the newly created target and then go to settings for that app. Copy the Git URL (should be in form of ‘git@heroku.com:name-of-app.git’).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Cloud9 terminal, type ‘git remote add heroku’ without quotes and paste the Git URL after that then press return (your line should look like ‘git remote add heroku git@heroku.com:name-of-app.git’)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;this-will-create-the-website&quot;&gt;This will create the website.&lt;/h4&gt;
+
+&lt;p&gt;Now after new changes, go to the terminal and type in ‘git add –all’ and hit return. Next, type ‘git commit -m “message of your commit”’ and hit return (include the inner double quotes with a message inside that will indicate what the updates are). Next, type ‘git push heroku master’ and hit return. Your changes will now be updated on your website (which can be accessed at name-of-app.herokuapp.com)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Feb 2014 00:00:00 -0800</pubDate>
+        <link>/articles/heroku-c9</link>
+        <guid isPermaLink="true">/articles/heroku-c9</guid>
+      </item>
     
       <item>
         <title>Math Knowledge</title>
@@ -93,123 +129,12 @@ When I first watched this video, I was under the impression that Alex Roman had 
       </item>
     
       <item>
-        <title>Syntax Highlighting Post</title>
-        <description>&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;pygments-code-blocks&quot;&gt;Pygments Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/assets/less/pygments.less&lt;/code&gt; and compile &lt;code&gt;main.less&lt;/code&gt; with your favorite preprocessor. Or edit &lt;code&gt;main.css&lt;/code&gt; if that’s your thing, the classes you want to modify all begin with &lt;code&gt;.highlight&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div&gt;
-    &lt;pre&gt;&lt;code class=&quot;css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-&lt;div&gt;
-    &lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-&lt;div&gt;
-    &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = &amp;#39;index.html&amp;#39;
-      self.process(@name)
-      self.read_yaml(File.join(base, &amp;#39;_layouts&amp;#39;), &amp;#39;tag_index.html&amp;#39;)
-      self.data[&amp;#39;tag&amp;#39;] = tag
-      tag_title_prefix = site.config[&amp;#39;tag_title_prefix&amp;#39;] || &amp;#39;Tagged: &amp;#39;
-      tag_title_suffix = site.config[&amp;#39;tag_title_suffix&amp;#39;] || &amp;#39;&amp;amp;#8211;&amp;#39;
-      self.data[&amp;#39;title&amp;#39;] = &amp;quot;#{tag_title_prefix}#{tag}&amp;quot;
-      self.data[&amp;#39;description&amp;#39;] = &amp;quot;An archive of posts tagged #{tag}.&amp;quot;
-    end
-  end
-end&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-&lt;h3 id=&quot;standard-code-block&quot;&gt;Standard Code Block&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/assets/less/coderay.less&lt;/code&gt; and compile &lt;code&gt;main.less&lt;/code&gt; with your favorite preprocessor. Or edit &lt;code&gt;main.css&lt;/code&gt; if that’s your thing, the classes you want to modify all begin with &lt;code&gt;.coderay&lt;/code&gt;. Line numbers and a few other things can be modified in &lt;code&gt;_config.yml&lt;/code&gt; under &lt;code&gt;coderay&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = &#39;index.html&#39;
-      self.process(@name)
-      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
-      self.data[&#39;tag&#39;] = tag
-      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
-      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;amp;#8211;&#39;
-      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
+        <title>ICS Graduation</title>
+        <description>&lt;p&gt;The ICS Graduation websites was made for the FBLA E-business competition and won first place at the national competition. It provides a system for students and other family members to purchase tickets to the graduation ceremony. It uses PHP in the backend to handle ticket requests and checkout services, but does not actually accept payment per competition guidelines.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Aug 2013 00:00:00 -0700</pubDate>
-        <link>/articles/code-highlighting-post</link>
-        <guid isPermaLink="true">/articles/code-highlighting-post</guid>
-      </item>
-    
-      <item>
-        <title>Sample Link Post</title>
-        <description>&lt;p&gt;So Simple Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To activate just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Aug 2013 00:00:00 -0700</pubDate>
-        <link>/articles/sample-link-post</link>
-        <guid isPermaLink="true">/articles/sample-link-post</guid>
+        <pubDate>Mon, 01 Jul 2013 00:00:00 -0700</pubDate>
+        <link>/projects/ics-graduation</link>
+        <guid isPermaLink="true">/projects/ics-graduation</guid>
       </item>
     
   </channel>

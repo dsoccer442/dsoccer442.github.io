@@ -6,6 +6,10 @@
     
     
     <url>
+        <loc>/articles/heroku-c9</loc>
+    </url>
+    
+    <url>
         <loc>/quotes/math-knowledge</loc>
     </url>
     
@@ -38,31 +42,11 @@
     </url>
     
     <url>
-        <loc>/articles/code-highlighting-post</loc>
-    </url>
-    
-    <url>
-        <loc>/articles/sample-link-post</loc>
-    </url>
-    
-    <url>
         <loc>/projects/ics-graduation</loc>
     </url>
     
     <url>
-        <loc>/articles/video-post</loc>
-    </url>
-    
-    <url>
         <loc>/projects/bittrust</loc>
-    </url>
-    
-    <url>
-        <loc>/articles/readability-feature-post</loc>
-    </url>
-    
-    <url>
-        <loc>/articles/sample-post-images</loc>
     </url>
     
     <url>
@@ -78,15 +62,7 @@
     </url>
     
     <url>
-        <loc>/articles/readability-post</loc>
-    </url>
-    
-    <url>
         <loc>/projects/rain-arcade</loc>
-    </url>
-    
-    <url>
-        <loc>/articles/sample-post</loc>
     </url>
     
 
