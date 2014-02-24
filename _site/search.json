@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Math Knowledge",
+		  "category"   : "quotes",
+		  "url"        : "/quotes/math-knowledge",
+		  "date"       : "2014-02-18 00:00:00 -0800",
+		  "shortdate"  : "February 18, 2014"
+		} ,
+	
+		{
 		  "title"      : "School Union",
 		  "category"   : "quotes",
 		  "url"        : "/quotes/school-union",

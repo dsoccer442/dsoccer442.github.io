@@ -16,7 +16,7 @@ tags: [Dylan, Steele, blog, home]
   <p>{{ post.content | strip_html | truncatewords:40 }}&nbsp; 
     {% if post.categories contains 'projects' %}<a href="{{ post.url }}">Read more</a> {% endif %}
     {% if post.categories contains 'articles' %}<a href="{{ post.url }}">Read more</a> {% endif %}
-    {% if post.categories contains 'quotes' %}<a href="{{ site.url }}/thoughts/#{{ post.title }}">Read more</a> {% endif %}
+    <!-- {% if post.categories contains 'quotes' %}<a href="{{ site.url }}/thoughts/#{{ post.title }}">Read more</a> {% endif %} -->
   </p>
 {% endfor %}
 <br>
