@@ -19,3 +19,8 @@ image:
 My name is Dylan Steele, and this is my personal website.  
 
 I am a student at the International Commmunity School. I build websites. More details to come.
+
+<br/><br/>
+
+<h2>What I'm Listening To</h2>
+<iframe width="100%" height="400" src="https://rd.io/i/QeJzcDMthIM/" frameborder="0"></iframe>

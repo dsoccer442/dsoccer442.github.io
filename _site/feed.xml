@@ -5,7 +5,7 @@
     <description>Developer. Thinker. TV Watcher.</description>    
     <link rel="alternate" type="text/html"></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <updated>2014-02-24T00:09:45-08:00</updated>
+    <updated>2014-03-24T20:23:14-07:00</updated>
     <author>
       <name>Dylan Steele</name>
       <uri>/</uri>
@@ -13,6 +13,15 @@
     </author>
     <icon>http://dylansteele.me/favicon.png</icon>
     <logo>http://dylansteele.me/images/logo.png</logo>
+    
+      <item>
+        <title>Never Enough Time</title>
+        <description>&lt;p&gt;“There’s never enough time to do all the nothing you want.”&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Feb 2014 00:00:00 -0800</pubDate>
+        <link>/quotes/never-enough-time</link>
+        <guid isPermaLink="true">/quotes/never-enough-time</guid>
+      </item>
     
       <item>
         <title>Adding Heroku to Cloud9</title>
@@ -126,15 +135,6 @@ When I first watched this video, I was under the impression that Alex Roman had 
         <pubDate>Sat, 14 Sep 2013 00:00:00 -0700</pubDate>
         <link>/projects/teen-ceo</link>
         <guid isPermaLink="true">/projects/teen-ceo</guid>
-      </item>
-    
-      <item>
-        <title>ICS Graduation</title>
-        <description>&lt;p&gt;The ICS Graduation websites was made for the FBLA E-business competition and won first place at the national competition. It provides a system for students and other family members to purchase tickets to the graduation ceremony. It uses PHP in the backend to handle ticket requests and checkout services, but does not actually accept payment per competition guidelines.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jul 2013 00:00:00 -0700</pubDate>
-        <link>/projects/ics-graduation</link>
-        <guid isPermaLink="true">/projects/ics-graduation</guid>
       </item>
     
   </channel>

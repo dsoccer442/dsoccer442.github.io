@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<style>
+		/* This only works with JavaScript, 
+		   if it's not present, don't show loader */
+		.no-js #loader { display: none;  }
+		.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        #page {display:none;}
+        #page img {width:100%;}
+	</style>
+    <link rel="stylesheet" type="text/css" href="loading.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+	<script>
+		// Wait for window load
+		$(window).load(function() {
+            $("#loader").delay( 1500 ).fadeOut( 400 );
+            $("#page").delay( 2000 ).fadeIn( 1500 );
+        });
+	</script>	
+</head>
+
+<body>
+    <div class="container" id="loader">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <div id="page">
+        <img src="http://www.team-bhp.com/forum/attachments/shifting-gears/1033178d1356977973-official-non-auto-image-thread-_mg_0143.jpg">
+    </div>
+</body>
+</html>

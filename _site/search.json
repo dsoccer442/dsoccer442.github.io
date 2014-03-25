@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Never Enough Time",
+		  "category"   : "quotes",
+		  "url"        : "/quotes/never-enough-time",
+		  "date"       : "2014-02-27 00:00:00 -0800",
+		  "shortdate"  : "February 27, 2014"
+		} ,
+	
+		{
 		  "title"      : "Adding Heroku to Cloud9",
 		  "category"   : "articles",
 		  "url"        : "/articles/heroku-c9",

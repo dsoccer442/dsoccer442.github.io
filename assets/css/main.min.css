@@ -419,30 +419,27 @@ body {
 .blurImg {
     position: relative;
     width: 100%;
-    height: 360px;
+    height: 420px;
     z-index: -1;
     top: 0;
     left: 0;
-    max-height: 360px;
 }
 
 .blurImg > div {
     position: fixed;
     width: 100%;
-    height: 360px;
+    height: 420px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     background-position: center center;
-    max-height: 360px;
 }
 
 .blur {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-    max-height: 360px;
 }
 
 .container>header h1 {
