@@ -5,7 +5,7 @@
     <description>Developer. Thinker. TV Watcher.</description>    
     <link rel="alternate" type="text/html"></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <updated>2014-03-24T20:23:14-07:00</updated>
+    <updated>2014-03-25T20:54:56-07:00</updated>
     <author>
       <name>Dylan Steele</name>
       <uri>/</uri>
@@ -13,6 +13,16 @@
     </author>
     <icon>http://dylansteele.me/favicon.png</icon>
     <logo>http://dylansteele.me/images/logo.png</logo>
+    
+      <item>
+        <title>Packing for the Future</title>
+        <description>&lt;script async=&quot;&quot; src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a class=&quot;m-story&quot; data-collapsed=&quot;true&quot; href=&quot;https://medium.com/p/f6e6af7e67a8&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Mar 2014 00:00:00 -0700</pubDate>
+        <link>/articles/packing-for-the-future</link>
+        <guid isPermaLink="true">/articles/packing-for-the-future</guid>
+      </item>
     
       <item>
         <title>Never Enough Time</title>
@@ -126,15 +136,6 @@ When I first watched this video, I was under the impression that Alex Roman had 
         <pubDate>Tue, 24 Dec 2013 00:00:00 -0800</pubDate>
         <link>/projects/sounders-fc-roster</link>
         <guid isPermaLink="true">/projects/sounders-fc-roster</guid>
-      </item>
-    
-      <item>
-        <title>TeenCEO</title>
-        <description>&lt;p&gt;TeenCEO is the first business plan competition in Western Washington and is of of the most prestigious high school competitions in the state. Launched by the Lake Washington School District, TeenCEO gives high school students with operating businesses the chance to compete for cash and prizes and earn credibility. Professional faculty and staff are also involved to help the &lt;a href=&quot;http://teenceowa.com/contestants&quot; title=&quot;TeenCEO Contestants&quot;&gt;students contestants&lt;/a&gt;. I operate the site, managed through Wordpress, and helped to start the competition with the LWSD administration and three other students. &lt;/p&gt;
-</description>
-        <pubDate>Sat, 14 Sep 2013 00:00:00 -0700</pubDate>
-        <link>/projects/teen-ceo</link>
-        <guid isPermaLink="true">/projects/teen-ceo</guid>
       </item>
     
   </channel>

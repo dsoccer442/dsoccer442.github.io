@@ -7,6 +7,16 @@
 		<atom:link href="/feed.category.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Packing for the Future</title>
+				<description>&lt;script async=&quot;&quot; src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a class=&quot;m-story&quot; data-collapsed=&quot;true&quot; href=&quot;https://medium.com/p/f6e6af7e67a8&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Tue, 25 Mar 2014 00:00:00 -0700</pubDate>
+				<link>/articles/packing-for-the-future</link>
+				<guid isPermaLink="true">/articles/packing-for-the-future</guid>
+			</item>
+		
+			<item>
 				<title>Adding Heroku to Cloud9</title>
 				<description>&lt;h4 id=&quot;these-directions-work-for-a-new-html5-document-created-in-cloud9&quot;&gt;These directions work for a new HTML5 document created in Cloud9.&lt;/h4&gt;
 

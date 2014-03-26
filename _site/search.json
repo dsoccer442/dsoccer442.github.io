@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Packing for the Future",
+		  "category"   : "articles",
+		  "url"        : "/articles/packing-for-the-future",
+		  "date"       : "2014-03-25 00:00:00 -0700",
+		  "shortdate"  : "March 25, 2014"
+		} ,
+	
+		{
 		  "title"      : "Never Enough Time",
 		  "category"   : "quotes",
 		  "url"        : "/quotes/never-enough-time",
