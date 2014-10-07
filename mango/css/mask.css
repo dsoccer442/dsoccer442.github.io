@@ -32,3 +32,11 @@
 	text-align: center;
 	font: 6em "Oswald", sans-serif;
 }
+
+.title {
+	background-image: url("../img/line.png");
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: 10em "Oswald", sans-serif;
+	text-align: center;
+}

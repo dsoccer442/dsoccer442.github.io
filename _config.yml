@@ -5,7 +5,7 @@ logo:             logo.png
 disqus_shortname: dylansteele
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://dylansteele.me #CHANGEBEFOREPUSHING!!!!!!!
+# url:              http://dylansteele.me #CHANGEBEFOREPUSHING!!!!!!!
 #cdn:			  http://cdn.localhost:4000
 
 # Owner/author information
