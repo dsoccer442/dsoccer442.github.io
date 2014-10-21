@@ -28,5 +28,32 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
+    
+    // Show images when clicking on event
+    $('li.event').click(function() {
+        if (document.querySelectorAll)
+        var eventNodeList = document.querySelectorAll(".event");
+        var eventIDs = []
+        for (var i = 0; i < eventNodeList.length; i++) {
+            eventIDs.push(eventNodeList[i].id)
+        }
+        for (var i = 0; i < eventIDs.length; i++) {
+            var id = eventIDs[i] + "_images"
+            var element = document.getElementById(eventIDs[i] + "_images"),
+                style = window.getComputedStyle(element),
+                display = style.getPropertyValue('display')
+            if (display == "block")
+                var curShown = id
+        }
+        var id = $(this).attr('id');
+        var eventID = id + "_images";        
+        $("#" + eventID).toggle(1000);
+        $("#" + curShown).toggle(1000);
+        return false;
+    });
+    
+    
+    
 	
 });
+
